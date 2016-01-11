@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# Deploy the build directory to gh-pages on the remote using git subtree
+bundle exec jekyll build && git subtree push --prefix build origin gh-pages

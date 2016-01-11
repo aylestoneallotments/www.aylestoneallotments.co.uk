@@ -1,0 +1,23 @@
+# This file contains the two level Navigation Bar structure of the site.
+#
+# Options:
+# - title: "title of item"
+#   href: "relative link to item"
+#   subcategories:
+#     - subtitle: "title of second level item"
+#       subhref: "relative link of second level item"
+
+- title: "Home"
+  href: "/"
+
+- title: "About"
+  href: "/about"
+
+- title: "News"
+  href: "/news"
+  
+- title: "Contact"
+  href: "/contact"
+  subcategories:
+    - subtitle: "test"
+      subhref: "/test"

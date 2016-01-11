@@ -1,0 +1,11 @@
+<div class="block">
+<h1>Latest News</h1>
+<ul class="posts"></ul>
+{% for post in site.posts %}
+  <li>
+    <span>
+		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </span>
+  </li>
+{% endfor %}
+</div>

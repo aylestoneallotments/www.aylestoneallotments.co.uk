@@ -1,0 +1,6 @@
+.page-content {
+  @include outer-container;
+  @include pad;
+  aside { @include span-columns(5); }
+  article { @include span-columns(7); }	
+}

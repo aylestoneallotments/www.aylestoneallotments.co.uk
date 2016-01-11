@@ -1,0 +1,16 @@
+.block {
+	border: 1px solid $light-gray;
+	padding: $base-spacing;
+	margin-bottom: $base-spacing;
+}
+
+.block-primary {
+	p, label, h2 {
+		color: #fff;
+	}
+	background: $brand-primary;
+	.button {
+		background: #fff;
+		color: $brand-primary;
+	}
+}

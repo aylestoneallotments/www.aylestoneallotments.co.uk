@@ -1,0 +1,17 @@
+---
+# Layouts must stay in HTML
+---
+{% include header.html %}
+
+<main role="main" class="page-content">
+		<article>
+			{{ content }}
+		</article>
+	<aside>
+		{% include posts.html %}
+		{% include mailchimp.html %}
+	</aside>
+</main>
+	
+{% include footer.html %}
+{% include closure.html %}

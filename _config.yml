@@ -1,0 +1,40 @@
+gems: [bourbon, neat]
+
+sass:
+  style: compressed
+
+# Site settings
+title: Jelly
+description: An example site
+
+# Name of project on Github
+baseurl: /jelly
+
+# Build settings
+markdown: kramdown
+
+# Gems for Github Pages
+gems:
+- jekyll-sitemap
+- jekyll-feed
+
+# Configuration for prose.io online editor
+prose:
+  ignore: ['_includes','assets','_assets','_layouts','_plugins','/.jekyll-metadata','feed.xml',]
+  media: img
+  metadata:
+    _posts:
+      - name: "date"
+        field:
+          label: "Date"
+          element: "text"
+          value: CURRENT_DATETIME
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: false
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
