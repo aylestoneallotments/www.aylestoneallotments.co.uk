@@ -3,8 +3,9 @@ layout: default
 title: Events
 ---
 
-{% capture currentDate %}{{ site.time | date: '%F' }}{% endcapture %}
-{% assign sorted_events = (site.events | sort: 'startdate') %}
+  {% comment %}Set variables for events system{% endcomment %}
+  {% capture currentDate %}{{ site.time | date: '%F' }}{% endcapture %}
+  {% assign sorted_events = (site.events | sort: 'startdate') %}
 
   <h2>Upcoming Events</h2>
   <ul class="itemlist">
