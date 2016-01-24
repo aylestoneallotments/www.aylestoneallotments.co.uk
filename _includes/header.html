@@ -19,7 +19,7 @@
 	      <ul id="js-navigation-menu" class="navigation-menu show">
 			 {% for nav in site.data.nav %}
 	        <li class="nav-link{% if nav.subcategories != null %} more{% endif %}"><a href="{{ site.baseurl }}{{ nav.href }}">{{ nav.title }}</a>{% if nav.subcategories != null %}<ul class="submenu">{% for subcategory in nav.subcategories %}
-    <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+    <li><a href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
     {% endfor %}</ul>{% endif %}</li>
 			{% endfor %}
 	      </ul>
