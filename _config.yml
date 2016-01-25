@@ -53,8 +53,8 @@ prose:
           value: false
       - name: "startdate"
         field:
-          label: "Event Start Date"
-          element: "date"
+          label: "Start Date"
+          element: "text"
           value: CURRENT_DATETIME
       - name: "layout"
         field:
