@@ -2,7 +2,7 @@
 title: Sample event 3
 layout: default
 published: true
-startdate: 2012-01-16
+startdate: 2012-01-16 00:00:00
 ---
 
 ## A New Post
