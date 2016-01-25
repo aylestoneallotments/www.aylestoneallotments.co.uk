@@ -1,5 +1,3 @@
-gems: [bourbon, neat]
-
 sass:
   style: compressed
 
@@ -27,10 +25,6 @@ collections:
   events:
     output: true
     permalink: /event/:path/
-
-# Array for events processor
-
-array: ['test']
 
 # Configuration for prose.io online editor
 prose:
