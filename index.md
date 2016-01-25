@@ -1,9 +1,10 @@
 ---
 layout: hero
 title: Welcome to Aylestone Allotments
-hero-copy: Aylestone Allotments and Leisure Gardeners Society (AALGS) is one of the oldest allotment societies in Leicester.
+"hero-copy": Aylestone Allotments and Leisure Gardeners Society (AALGS) is one of the oldest allotment societies in Leicester.
 published: true
 ---
+
 
 #Welcome to Aylestone Allotments
 
@@ -14,3 +15,5 @@ Our allotments are situated at the junction of Whittier Road and Copinger Road, 
 AALGS is run by an elected committee and is a friendly, sociable organisation where experienced and novice gardeners are equally welcome.
 
 We are so popular that our membership is currently full. However, if you are interested in an allotment, please contact us and we can add you to the waiting list.
+
+Quick test.
