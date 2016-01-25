@@ -13,8 +13,10 @@ markdown: kramdown
 
 # Gems for Github Pages
 gems:
+- jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-feed
+
 
 # Timezone
 timezone: GB
