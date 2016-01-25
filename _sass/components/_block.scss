@@ -1,6 +1,6 @@
 .block {
 	border: 1px solid $light-gray;
-	padding: $base-spacing;
+	@include pad(flex-gutter()*2);
 	margin-bottom: $base-spacing;
 }
 

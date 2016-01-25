@@ -1,18 +1,12 @@
-# Jelly Jekyll
+# Aylestone Allotments Website
 
-## About Jelly
+This is the code for website of Aylestone Allotments and Leisure Gardeners Society (AALGS).
 
-Jellystack is based on the Proteus starter kit for Jely
+## Technical details
 
-[Proteus](http://github.com/thoughtbot/proteus) is a collection of useful
-starter kits to help you prototype faster. It follows the
-[thoughtbot styleguide](https://github.com/thoughtbot/guides) and includes our
-favorite front end tools.
+The site is built use Jekyll static site generator which can be automatically built using Github pages.
 
-## About Jekyll
-
-Jekyll is a static site generator built in Ruby. This makes it a great fit
-for projects that may end up as a Ruby on Rails app.
+In addition the Bourbon framework by thoughbot is used to enable quick development possible.
 
 ## Includes
 
@@ -98,3 +92,11 @@ Proteus Jekyll is maintained and funded by [thoughtbot, inc](http://thoughtbot.c
 ## License
 
 Copyright © 2014–2015 [thoughtbot, inc](http://thoughtbot.com). Proteus Jekyll is free software, and may be redistributed under the terms specified in the [license](LICENSE.md).
+
+## Compiling Javascripts
+
+sudo npm install uglify-js -g
+	
+Then use it to compress your files…
+
+uglifyjs _includes/assets/javascript/* -o js/application.js

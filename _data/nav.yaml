@@ -7,14 +7,14 @@
 #     - subtitle: "title of second level item"
 #       subhref: "relative link of second level item"
 
-- title: "Home"
-  href: "/"
-
 - title: "About"
   href: "/about"
 
 - title: "News"
   href: "/news"
+  
+- title: "Events"
+  href: "/events"
   
 - title: "Contact"
   href: "/contact"

@@ -8,7 +8,7 @@ title: Jelly
 description: An example site
 
 # Name of project on Github
-baseurl: /jelly
+baseurl: /www.aylestoneallotments.co.uk
 
 # Build settings
 markdown: kramdown
@@ -17,6 +17,20 @@ markdown: kramdown
 gems:
 - jekyll-sitemap
 - jekyll-feed
+
+# Timezone
+timezone: GB
+
+# Custom Collections
+
+collections:
+  events:
+    output: true
+    permalink: /event/:path/
+
+# Array for events processor
+
+array: ['test']
 
 # Configuration for prose.io online editor
 prose:

@@ -1,6 +1,8 @@
 .page-content {
-  @include outer-container;
-  @include pad;
-  aside { @include span-columns(5); }
-  article { @include span-columns(7); }	
+	@include outer-container;
+	@include pad;
+	@include media(min-width 620px) {
+		aside { @include span-columns(5); }
+		article { @include span-columns(7); }	
+	}
 }
