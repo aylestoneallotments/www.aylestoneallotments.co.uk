@@ -13,6 +13,8 @@ gems:
 - jekyll-sitemap
 - jekyll-feed
 
+production_url: http://aylestoneallotments.github.io/www.aylestoneallotments.co.uk
+BASE_PATH: http://aylestoneallotments.github.io/www.aylestoneallotments.co.uk	
 
 # Timezone
 timezone: GB
