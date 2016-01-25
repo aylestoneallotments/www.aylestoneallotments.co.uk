@@ -8,11 +8,6 @@ description: An example site
 # Build settings
 markdown: kramdown
 
-# Gems for Github Pages
-gems:
-- jekyll-sitemap
-- jekyll-feed
-
 baseurl: /website
 
 # Timezone
