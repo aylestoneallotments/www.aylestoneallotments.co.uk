@@ -40,3 +40,23 @@ prose:
         field:
           element: "hidden"
           value: "default"
+    _events:
+      - name: "date"
+        field:
+          label: "Date"
+          element: "text"
+          value: CURRENT_DATETIME
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: false
+      - name: "startdate"
+        field:
+          label: "Event Start Date"
+          element: "date"
+          value: CURRENT_DATETIME
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
