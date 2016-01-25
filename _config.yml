@@ -6,7 +6,7 @@ title: Jelly
 description: An example site
 
 # Name of project on Github
-baseurl: /www.aylestoneallotments.co.uk
+baseurl: /aylestoneallotments.github.io
 
 # Build settings
 markdown: kramdown
