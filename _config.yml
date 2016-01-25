@@ -22,7 +22,7 @@ collections:
 
 # Configuration for prose.io online editor
 prose:
-  ignore: ['_includes','assets','_assets','_layouts','_plugins','/.jekyll-metadata','feed.xml','bin','js','css','_sass','.gitignore','Gemfile','Gemfile.lock','LICENSE.md','README.md']
+  ignore: ['_includes','assets','_assets','_layouts','_plugins','/.jekyll-metadata','feed.xml','bin','js','css','_sass']
   media: img
   metadata:
     _posts:
