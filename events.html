@@ -10,16 +10,16 @@ title: Events
   <h2>Upcoming Events</h2>
   <ul class="itemlist">
   {% for event in sorted_events %}
-  {% capture startdate %}{{ event.startdate | date: '%F' }}{% endcapture %}
+  {% capture startdate %}{{ event.date | date: '%F' }}{% endcapture %}
   {% if startdate > currentDate %}
-    <li>{{ event.startdate | date_to_string }} <a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></li>{% endif %}
+    <li>{{ event.date | date_to_string }} <a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></li>{% endif %}
   {% endfor %}
   </ul>
   <h2>Past Events</h2>
   <ul class="itemlist">
   {% for event in sorted_events %}
-  {% capture startdate %}{{ event.startdate | date: '%F' }}{% endcapture %}
+  {% capture startdate %}{{ event.date | date: '%F' }}{% endcapture %}
   {% if startdate < currentDate %}
-    <li>{{ event.startdate | date_to_string }} <a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></li>
+    <li>{{ event.date | date_to_string }} <a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></li>
 	{% endif %}
   {% endfor %}</ul>

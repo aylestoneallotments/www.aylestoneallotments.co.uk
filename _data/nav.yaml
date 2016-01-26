@@ -16,8 +16,8 @@
 - title: "Events"
   href: "/events"
   
-- title: "Contact"
-  href: "/contact"
+- title: "More"
+  href: "#"
   subcategories:
-    - subtitle: "test"
-      subhref: "/test"
+    - subtitle: "Contact"
+      subhref: "/contact"

@@ -10,6 +10,8 @@ markdown: kramdown
 
 baseurl: /website
 
+permalink: pretty
+
 # Timezone
 timezone: GB
 
@@ -18,7 +20,7 @@ timezone: GB
 collections:
   events:
     output: true
-    permalink: /event/:path/
+    permalink: /events/:title/
 
 # Configuration for prose.io online editor
 prose:
