@@ -20,7 +20,7 @@ timezone: GB
 collections:
   events:
     output: true
-    permalink: /events/:title/
+    permalink: /events/:year/:month/:day/:title/
 
 # Configuration for prose.io online editor
 prose:
@@ -47,17 +47,12 @@ prose:
         field:
           label: "Date"
           element: "text"
-          value: CURRENT_DATETIME
+          value: 2012-12-22 14:07
       - name: "published"
         field:
           label: "Published"
           element: "checkbox"
           value: false
-      - name: "startdate"
-        field:
-          label: "Start Date"
-          element: "text"
-          value: CURRENT_DATETIME
       - name: "layout"
         field:
           element: "hidden"
