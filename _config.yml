@@ -8,7 +8,8 @@ description: An example site
 # Build settings
 markdown: kramdown
 
-baseurl: http://aylestoneallotments.github.io/website
+url: http://aylestoneallotments.github.io
+baseurl: /website
 
 permalink: pretty
 
