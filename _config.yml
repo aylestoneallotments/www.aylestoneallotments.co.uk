@@ -1,17 +1,21 @@
 sass:
   style: compressed
 
-# Site settings
-title: Aylestone Allotments and Leisure Gardener's Society
-description: An example site
-
 # Build settings
 markdown: kramdown
 
+# Site settings
+title: Aylestone Allotments and Leisure Gardener's Society
+description: An example site
 url: http://aylestoneallotments.github.io
 baseurl: /website
 email: newsletter@aylestoneallotments.co.uk
 
+# Social media settings
+
+facebook: https://www.facebook.com/Aylestone-Allotments-and-Leisure-Gardeners-Society-AALGS-203607403321766/
+twitter : tigefa_team
+facebook: tigefa.team
 permalink: pretty
 
 # Timezone
