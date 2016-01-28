@@ -10,6 +10,7 @@ markdown: kramdown
 
 url: http://aylestoneallotments.github.io
 baseurl: /website
+email: newsletter@aylestoneallotments.co.uk
 
 permalink: pretty
 

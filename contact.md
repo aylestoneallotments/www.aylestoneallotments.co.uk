@@ -13,7 +13,9 @@ Forms are powered by www.formspree.io.
 
 To contact AALGS, please use the form below to contact the Secretary:
 
-<form action="//formspree.io/richardmichaelscott@gmail.com"
+{% comment %}Forms provided by formspree.io{% endcomment %}
+
+<form action="http://formspree.io/{{ site.email }}"
       method="POST">
 	<label>Name</label>
     <input type="text" name="name"> 
@@ -23,5 +25,5 @@ To contact AALGS, please use the form below to contact the Secretary:
     <label>Your message</label>
 	<textarea name="message"></textarea>
     <input type="submit" value="Send">
-	<input type="hidden" name="_next" value="http://127.0.0.1:4000/jelly/contact" />
+	<input type="hidden" name="_next" value="{{site.url}}{{site.baseurl}}/contact" />
 </form>
