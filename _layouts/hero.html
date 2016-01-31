@@ -2,9 +2,10 @@
 # Layouts must stay in HTML
 ---
 {% include header.html %}
-<main role="main">
-	<header class="hero" {% if page.hero-image-url != null %}style="background-image: url('{{ page.hero-image-url }}');" {% endif %}>
-		<div class="hero-inner">
+<main role="main" class="m-scene">
+	<div class="scene_element scene_element--fadein">
+		<header class="hero" {% if page.hero-image-url != null %}style="background-image: url('{{ page.hero-image-url }}');" {% endif %}>
+			<div class="hero-inner">
 				<div class="hero-copy">
 					<h1>{{ page.title }}</h1>
 					<p>{{ page.hero-copy }}</p>	
@@ -14,13 +15,14 @@
 	</header>
 	<section class="page-content">
 		<article>
-		{{ content }}
-	</article>
-	<aside>
-		{% include posts.html %}
-		{% include mailchimp.html %}
-	</aside>
+			{{ content }}
+		</article>
+		<aside>
+			{% include posts.html %}
+			{% include mailchimp.html %}
+		</aside>
 	</section>
+</div>
 </main>
 	
 {% include footer.html %}

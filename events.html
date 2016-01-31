@@ -23,3 +23,13 @@ title: Events
     <li>{{ event.date | date_to_string }} <a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></li>
 	{% endif %}
   {% endfor %}</ul>
+  
+  
+  <h2>Upcoming Events</h2>
+  <ul class="itemlist">
+  {% for event in sorted_events %}
+  {% capture date %}{{ event.date | date: '%F' }}{% endcapture %}
+  {% if date > currentDate %}
+    <li>{{ event.date | date_to_string }} <a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></li>{% endif %}
+  {% endfor %}
+  </ul>
