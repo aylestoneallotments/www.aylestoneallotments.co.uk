@@ -18,7 +18,7 @@ twitter : tigefa_team
 facebook: tigefa.team
 permalink: pretty
 
-analyticstracking: UA-35898440-1
+analyticstracking: "UA-35898440-1"
 
 # Timezone
 timezone: GB
