@@ -1,15 +1,10 @@
 ---
+title: Contact
 layout: contact
 map-marker-title: "Aylestone Allotments"
 map-marker-content: "53 Copinger Rd, Leicester, LE2 6LF"
 map-coordinates: "52.6070036,-1.1352628"
 ---
-
-{% comment %}
-Forms are powered by www.formspree.io.
-{% endcomment %}
-
-#Make a Booking Enquiry
 
 To contact AALGS, please use the form below to contact the Secretary:
 
