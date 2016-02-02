@@ -6,9 +6,9 @@ hero-image-url: "/website/img/logo.svg"
 published: true
 ---
 
-#Welcome to Aylestone Allotments
+# Welcome to Aylestone Allotments
 
-###We have been around for more than one hundred years and we have more than one hundred members.
+### We have been around for more than one hundred years and we have more than one hundred members.
 
 Our allotments are situated at the junction of Whittier Road and Copinger Road, at the corner of Aylestone Recreation Ground. (See satellite view.)
 
