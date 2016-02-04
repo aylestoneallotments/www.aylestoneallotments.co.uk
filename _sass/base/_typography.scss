@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Bitter:700);
-@import url(https://fonts.googleapis.com/css?family=PT+Serif+Caption);
+@import url(//fonts.googleapis.com/css?family=Bitter:700);
+@import url(//fonts.googleapis.com/css?family=PT+Serif+Caption);
 
 body {
   @include font-feature-settings("kern", "liga", "pnum");

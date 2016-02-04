@@ -1,17 +1,17 @@
 sass:
   style: compressed
 
-# Build settings
+#  Build settings
 markdown: kramdown
 
-# Site settings
+#  Site settings
 title: Aylestone Allotments and Leisure Gardener's Society
 description: An example site
 url: http://aylestoneallotments.github.io
 baseurl: /website
 email: newsletter@aylestoneallotments.co.uk
 
-# Social media settings
+#  Social media settings
 
 facebook: https://www.facebook.com/Aylestone-Allotments-and-Leisure-Gardeners-Society-AALGS-203607403321766/
 twitter : tigefa_team
@@ -20,17 +20,17 @@ permalink: pretty
 
 analyticstracking: "UA-35898440-1"
 
-# Timezone
+#  Timezone
 timezone: GB
 
-# Custom Collections
+#  Custom Collections
 
 collections:
   events:
     output: true
     permalink: /events/:year/:month/:day/:title/
 
-# Configuration for prose.io online editor
+#  Configuration for prose.io online editor
 prose:
   ignore: ['_includes','assets','_assets','_layouts','_plugins','/.jekyll-metadata','feed.xml','bin','js','css','_sass','_config.yml']
   media: img
