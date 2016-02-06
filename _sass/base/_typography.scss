@@ -6,13 +6,16 @@ body {
   font-size: $base-font-size;
   line-height: $base-line-height;
   background: $base-background-color;
-  //Fixes font loading issues on Chrome Mac
-  
-  -webkit-animation-duration: 0.1s;
-  -webkit-animation-name: fontfix;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-delay: 2s;
+    -webkit-animation-duration: 0.1s;
+	-webkit-animation-name: fontfix;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0.1s;
+}
+
+@-webkit-keyframes fontfix{
+	from{ 	opacity: 1; }
+	to{	opacity: 1; }
 }
 
 h1,
@@ -26,12 +29,6 @@ h6 {
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
-}
-
-@-webkit-keyframes fontfix{
-  from{ opacity: 1; }
-  50%{ opacity: 0.8; }
-  to{ opacity: 1; }
 }
 
 h1 {
