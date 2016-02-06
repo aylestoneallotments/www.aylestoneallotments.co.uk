@@ -106,12 +106,12 @@ header.navigation {
 		display: block;
 		line-height: $navigation-height;
 		overflow: hidden;
-		padding-right: 0.8em;
 		text-align: center;
 		width: 100%;
 		z-index: 9999;
 
 		@include media ($horizontal-bar-mode) {
+		padding-right: 0.8em;
 			border-top: none;
 			background: transparent;
 			display: inline;
@@ -124,15 +124,22 @@ header.navigation {
 			color: $navigation-color;
 			display: inline-block;
 			text-decoration: none;
-
+			width: 100%;
 			@include media ($horizontal-bar-mode) {
+				width: auto;
 				padding-right: 1em;
 			}
 
+			
 			&:focus,
 			&:hover {
 				color: $navigation-color-hover;
+				background: darken($navigation-background, 10%);
+				@include media($horizontal-bar-mode) {
+				background: $navigation-background;
+				}
 			}
+			
 		}
 	}
 
@@ -169,10 +176,13 @@ header.navigation {
 			padding-right: 0.6em;
 		}
 
-		> a:after {
-			@include position(absolute, auto -0.4em auto auto);
+		span.caret:after {
+			margin-left: 0.3em;
 			content: '\25BE';
 			color: $navigation-color;
+			@include media($horizontal-bar-mode) {
+			@include position(absolute, auto -0.4em auto auto);
+			}
 		}
 	}
 
@@ -253,6 +263,13 @@ header.navigation {
 				display: inline-block;
 				text-align: right;
 				width: 100%;
+				
+				&:hover {
+					background: darken($navigation-background, 10%);
+					@include media($horizontal-bar-mode) {
+					background: $navigation-background;
+					}
+				}
 
 				@include media($horizontal-bar-mode) {
 					border-bottom: none;
