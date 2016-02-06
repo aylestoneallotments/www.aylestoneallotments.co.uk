@@ -166,7 +166,6 @@ header.navigation {
 
 		a {
 			text-align: center;
-			margin-right: $navigation-submenu-padding;
 			@include media($horizontal-bar-mode) {
 				text-align: left;			
 			}
