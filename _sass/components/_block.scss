@@ -13,7 +13,7 @@
 	}
 	background: $brand-primary;
 	input[type="submit"] {
-		font: 700 1em "Bitter";
+		font: 700 1em $base-font-family;
 		background: #fff;
 		color: $brand-primary;
 	}
