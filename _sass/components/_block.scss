@@ -16,5 +16,7 @@
 		font-family: $base-font-family;
 		background: #fff;
 		color: $brand-primary;
+		  -webkit-font-smoothing: antialiased;
+		  border: none;
 	}
 }
