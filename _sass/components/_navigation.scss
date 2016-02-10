@@ -173,6 +173,11 @@ header.navigation {
 
 		> a {
 			padding-right: 0.6em;
+			padding-left: 1em;
+			@include media($horizontal-bar-mode) {
+				padding-left: 0;	
+			}
+			
 		}
 
 		span.caret:after {
@@ -190,7 +195,9 @@ header.navigation {
 		padding-right: 0;
 
 		a {
+			@include media($horizontal-bar-mode) {
 			padding-right: 0.8em;
+		}
 		}
 
 		> a {

@@ -1,16 +1,18 @@
 .block {
-	border: 1px solid $light-gray;
+	border: 1px solid $medium-gray;
 	@include pad(flex-gutter()*2);
 	margin-bottom: $base-spacing;
 }
 
+.block-default {
+}
+
 .block-primary {
-	p, label, h2 {
+	p, label, h1, h2, h3  {
 		color: #fff;
 	}
 	background: $brand-primary;
 	.button {
-		font-family: $base-font-family;
 		background: #fff;
 		color: $brand-primary;
 	}
