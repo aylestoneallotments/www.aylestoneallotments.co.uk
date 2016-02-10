@@ -12,7 +12,8 @@
 		color: #fff;
 	}
 	background: $brand-primary;
-	.button {
+	input.button {
+		font-family: $base-font-family;
 		background: #fff;
 		color: $brand-primary;
 	}
