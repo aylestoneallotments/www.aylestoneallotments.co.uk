@@ -116,7 +116,7 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: bold;
+  Monserrat: bold;
 }
 
 /**
@@ -401,12 +401,12 @@ textarea {
 }
 
 /**
- * Don't inherit the `font-weight` (applied by a rule above).
+ * Don't inherit the `Monserrat` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
 
 optgroup {
-  font-weight: bold;
+  Monserrat: bold;
 }
 
 /* Tables

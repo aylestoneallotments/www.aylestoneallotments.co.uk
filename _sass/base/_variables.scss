@@ -1,6 +1,7 @@
 // Typography
-$base-font-family: "Bitter","Georgia","Cambria","Times New Roman","Times",serif;
-$heading-font-family: "Bitter","Georgia","Cambria","Times New Roman","Times",serif;
+
+$base-font-family: "PT Serif", $georgia;
+$heading-font-family: "Bitter", $georgia;
 
 // Font Sizes
 $base-font-size: 1em;

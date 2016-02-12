@@ -127,7 +127,7 @@
   color: $color;
   display: inline-block;
   font-size: $textsize;
-  font-weight: bold;
+  Monserrat: bold;
   @include linear-gradient ($base-color, $stop-gradient);
   padding: $padding;
   text-decoration: none;
@@ -201,7 +201,7 @@
   color: $color;
   display: inline-block;
   font-size: $textsize;
-  font-weight: bold;
+  Monserrat: bold;
   padding: $padding;
   text-align: center;
   text-decoration: none;
@@ -270,7 +270,7 @@
   color: $color;
   display: inline-block;
   font-size: $textsize;
-  font-weight: normal;
+  Monserrat: normal;
   line-height: 1;
   @include linear-gradient ($base-color, $stop-gradient);
   padding: $padding;
@@ -346,7 +346,7 @@
   color: $color;
   display: inline-block;
   font-size: $textsize;
-  font-weight: bold;
+  Monserrat: bold;
   padding: $padding;
   text-decoration: none;
   background-clip: padding-box;
