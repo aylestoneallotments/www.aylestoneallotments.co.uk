@@ -8,16 +8,18 @@
 #       subhref: "relative link of second level item"
 
 - title: "About"
-  href: "/about"
-
+  href: "#"
+  subcategories:
+    - subtitle: "History"
+      subhref: "/about/history"
+    - subtitle: "Our Team"
+      subhref: "/about/team"
 - title: "News"
   href: "/news"
-  
 - title: "Events"
   href: "/events"
-  
 - title: "More"
   href: "#"
   subcategories:
     - subtitle: "Contact"
-      subhref: "/contact"
+      subhref: "/more/contact"

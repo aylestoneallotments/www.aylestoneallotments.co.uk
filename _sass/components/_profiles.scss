@@ -1,0 +1,29 @@
+.profiles {
+		border-bottom: 1px solid $light-gray;
+		margin-bottom: 2em;
+	.profile {
+		border-top: 1px solid $light-gray;
+		display: table;
+		width: 100%;
+		margin-top: 1em;
+		padding-top: 2em;
+		padding-bottom: 2em;
+		.profile-img {
+			display: table-cell;
+			vertical-align: top;
+			padding-right: 2em;
+			width: 150px;
+			img {
+				width: 150px;
+			}
+		}
+		.profile-content {
+			vertical-align: top;
+			display: table-cell;
+			div {
+				width: 100%;
+				clear: both;
+			}		
+		}
+	}
+}

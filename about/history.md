@@ -1,8 +1,8 @@
 ---
 title: About us
-layout: default
+layout: subpage
 ---
-### There are 200 rentable plots on the site. The majority of plots are 300 square yards in size but a few are let as starter plots and are about 100 square yards in size. These are ideal for the ‘first timer’ or someone who just wants a ‘back garden’ size plot.
+There are 200 rentable plots on the site. The majority of plots are 300 square yards in size but a few are let as starter plots and are about 100 square yards in size. These are ideal for the ‘first timer’ or someone who just wants a ‘back garden’ size plot.
  
 A 300 sq yd plot should feed a family of four all year if cultivated correctly.
  

@@ -1,0 +1,16 @@
+{% assign args = page.path | split: '/' %}
+{% assign parent = args | first %}
+
+<div class="block block-default">
+{% for nav in site.data.nav %}
+{% capture navparent %}{{ nav.title | downcase }}{% endcapture %}
+{% if navparent == parent %}
+<h2>{{ nav.title }}</h2>
+<ul>
+{% for subcategory in nav.subcategories %}
+    <li class="nav-link"><a href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+    {% endfor %}
+{% endif %}
+{% endfor %}
+</ul>
+</div>

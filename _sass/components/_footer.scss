@@ -9,7 +9,7 @@
 	$footer-disclaimer-color: transparentize($footer-color, 0.6);
 
 	background: $footer-background;
-	padding: $base-spacing;
+	padding: flex-gutter();
 	width: 100%;
 	display: inline-block;
 
@@ -28,7 +28,6 @@
 		@include media($large-screen) {
 			float: left;
 			line-height: 1.8em;
-			margin-left: 1em;
 			margin-bottom: 0;
 		}
 	}
@@ -56,10 +55,6 @@
 	.footer-secondary-links {
 		@include media($large-screen) {
 			float: right;
-		}
-
-		li {
-			font-size: 0.8em;
 		}
 
 		ul.footer-social {
