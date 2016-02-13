@@ -23,3 +23,5 @@
   subcategories:
     - subtitle: "Contact"
       subhref: "/more/contact"
+- title: "Search"
+  href: "/search"

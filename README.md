@@ -99,4 +99,4 @@ sudo npm install uglify-js -g
 	
 Then use it to compress your files…
 
-uglifyjs _includes/assets/javascript/* -o js/application.js
+uglifyjs _javascript/* -o js/application.js

@@ -1,5 +1,6 @@
 ---
+title: search
 layout: default
 ---
 
-# Does this work?
+<input placeholder="Search…" type="search" id="search" class="search-input">
