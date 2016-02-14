@@ -5,31 +5,23 @@ title: Events
 
   {% comment %}Set variables for events system{% endcomment %}
   {% capture currentDate %}{{ site.time | date: '%F' }}{% endcapture %}
-  {% assign sorted_events = (site.events | sort: 'date') %}
+  {% assign sorted_events = (site.posts | sort: 'date') %}
 
   <h2>Upcoming Events</h2>
   <ul class="itemlist">
-  {% for event in sorted_events %}
-  {% capture date %}{{ event.date | date: '%F' }}{% endcapture %}
+  {% for post in sorted_events %}
+  {% capture date %}{{ post.eventdate | date: '%F' }}{% endcapture %}
+  {% if post.categories contains 'event' %}
   {% if date > currentDate %}
-    <li>{{ event.date | date_to_string }} <a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></li>{% endif %}
+    <li>{{ post.eventdate | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>{% endif %}{% endif %}
   {% endfor %}
   </ul>
   <h2>Past Events</h2>
   <ul class="itemlist">
-  {% for event in sorted_events %}
-  {% capture date %}{{ event.date | date: '%F' }}{% endcapture %}
+  {% for post in sorted_events %}
+  {% capture date %}{{ post.eventdate | date: '%F' }}{% endcapture %}
+ {% if post.categories contains 'event' %}
   {% if date < currentDate %}
-    <li>{{ event.date | date_to_string }} <a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></li>
-	{% endif %}
+    <li>{{ post.eventdate | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	{% endif %}{% endif %}
   {% endfor %}</ul>
-  
-  
-  <h2>Upcoming Events</h2>
-  <ul class="itemlist">
-  {% for event in sorted_events %}
-  {% capture date %}{{ event.date | date: '%F' }}{% endcapture %}
-  {% if date > currentDate %}
-    <li>{{ event.date | date_to_string }} <a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></li>{% endif %}
-  {% endfor %}
-  </ul>

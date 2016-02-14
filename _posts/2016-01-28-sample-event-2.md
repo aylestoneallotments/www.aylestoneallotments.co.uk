@@ -1,10 +1,10 @@
 ---
-title: Sample event 3
+title: Sample event 2
 layout: default
 published: true
-date: 2012-01-16 00:00:00
+categories: event
+eventdate: 2016-03-02 00:00:00
 ---
-
 ## A New Post
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
