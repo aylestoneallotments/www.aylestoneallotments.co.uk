@@ -1,9 +1,12 @@
 ---
 title: News
 layout: default
+summary: Latest news from the Aylestone Allotment Society.
 ---
 
-  <ul class="itemlist">
+<ul class="itemlist">
   {% for post in site.posts %}
-    <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+    {% unless post.categories contains 'event' %}
+    <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	{% endunless %}{% endfor %}
 </ul>

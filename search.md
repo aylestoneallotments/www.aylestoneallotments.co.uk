@@ -1,6 +1,7 @@
 ---
 title: Search
 layout: default
+summary: Search site for content.
 ---
 
 <div class="content" id="content">
