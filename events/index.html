@@ -5,7 +5,7 @@ title: Events
 
   {% comment %}Set variables for events system{% endcomment %}
   {% capture currentDate %}{{ site.time | date: '%F' }}{% endcapture %}
-  {% assign sorted_events = (site.posts | sort: 'date') %}
+  {% assign sorted_events = (site.posts | sort: 'eventdate') %}
 
   <h1>Upcoming Events</h1>
   <ul class="itemlist">
