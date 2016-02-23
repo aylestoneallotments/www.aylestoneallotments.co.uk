@@ -372,6 +372,7 @@ header.navigation {
 	@include media($horizontal-bar-mode) {
 		margin-left: 0;
 	}
+	background-image:url('../img/logo.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-indent: -99999px;

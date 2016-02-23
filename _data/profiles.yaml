@@ -1,31 +1,32 @@
-# This file contains details of people in the organisation.
-#
-# Options:
-# - name: "name of the person"
-#   img: "path to picture of person relative baseurl"
-#   role: "role of person within organisation"
-#   phone: "telephone number"
-#   email: "email address of person"
-#   website: "presonal website of person"
+  # This file contains details of people in the organisation.
+  #
+  # Options:
+  # - name: "name of the person"
+  #   img: "path to picture of person relative baseurl"
+  #   role: "role of person within organisation"
+  #   phone: "telephone number"
+  #   email: "email address of person"
+  #   website: "presonal website of person"
 
-- name: "Trevor Foster"
-  img: "/img/profiles/profile-placeholder.gif"
-  role: "Chairperson"
-  email: "aalsgcsec@yahoo.co.uk"
+  - name: "Trevor Foster"
+    img: "/img/profiles/profile-placeholder.gif"
+    role: "Chairperson"
+    email: "aalsgcsec@yahoo.co.uk"
   
-- name: "Richard Scott"
-  img: "/img/profiles/profile-placeholder.gif"
-  role: "Newsletter Team"
-  phone: "Profile phone"
-  email: "richardmichaelscott@gmail.com"
-  twitter: "richardmscott"
-  website: "www.rscottillustration.com"
+  - name: "Richard Scott"
+    img: "/img/profiles/profile-placeholder.gif"
+    role: "Newsletter Team"
+    phone: "Profile phone"
+    email: "richardmichaelscott@gmail.com"
+    twitter: "richardmscott"
+    website: "www.rscottillustration.com"
   
-- name: "Richard Scott"
-  img: "/img/profiles/profile-placeholder.gif"
-  role: "Newsletter Team"
-  phone: "Profile phone"
-  email: "richardmichaelscott@gmail.com"
-  twitter: "richardmscott"
-  website: "www.rscottillustration.com"
+  - name: "Richard Scott"
+    img: "/img/profiles/profile-placeholder.gif"
+    role: "Newsletter Team"
+    phone: "Profile phone"
+    email: "richardmichaelscott@gmail.com"
+    twitter: "richardmscott"
+    website: "www.rscottillustration.com"
 
+  

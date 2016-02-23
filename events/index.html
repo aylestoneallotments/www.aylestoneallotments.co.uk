@@ -3,47 +3,23 @@ layout: default
 title: Events
 ---
 
-  {% comment %}Set variables for events system{% endcomment %}
-  {% capture currentDate %}{{ site.time | date: '%F' }}{% endcapture %}
-  {% assign sorted_events = (site.posts | sort: 'eventdate') %}
+<script>
+(function() {
+		$.getJSON("events.json", function(data) {
+				var items = [];
+				$.each(data.events, function(key, val) {
+						if (Date.parse(data.events[key].start) < $.now()) {
+								$(".event-" + (key + 1) ).hide();
+							}
+						});
+				});
+		})();
+</script>
 
-  <h1>Upcoming Events</h1>
-  <ul class="itemlist">
-  {% for post in sorted_events %}
-  {% capture date %}{{ post.eventdate | date: '%F' }}{% endcapture %}
-  {% if post.categories contains 'event' %}
-  {% if date > currentDate %}
-	<div class="result">
-	  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-	  <span>{{ post.eventdate | date_to_string }}</span>
-	  <div class="content">
-		{% if post.summary == null %}
-	    {{ post.content | strip_html | truncatewords: 200 }}
-		{% else %}
-		{{ post.summary }}
-		{% endif %}
-	  </div>
-	</div>
-	{% endif %}
-	{% endif %}
-  {% endfor %}
-  </ul>
-  <h1>Past Events</h1>
-  <ul class="itemlist">
-  {% for post in sorted_events %}
-  {% capture date %}{{ post.eventdate | date: '%F' }}{% endcapture %}
- {% if post.categories contains 'event' %}
-  {% if date < currentDate %}
-	<div class="result">
-	  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-	  <span>{{ post.eventdate | date_to_string }}</span>
-	  <div class="content">
-		{% if post.summary == null %}
-	    {{ post.content | strip_html | truncatewords: 200 }}
-		{% else %}
-		{{ post.summary }}
-		{% endif %}
-	  </div>
-	</div>
-	{% endif %}{% endif %}
-  {% endfor %}</ul>
+
+
+<ul id="events">
+{% for post in site.data.events | sort 'start' %}
+<li><a class="event-{{ forloop.index }}" href="{{ post.url }}">{{ post.title }} {{ post.start }}</a></li>
+{% endfor %}
+</ul>
