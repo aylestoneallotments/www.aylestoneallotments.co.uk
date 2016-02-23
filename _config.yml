@@ -7,7 +7,9 @@ markdown: kramdown
 gems:
   - jekyll-coffeescript
   - jekyll-paginate
-
+  - jekyll-sitemap
+  - jekyll-feed
+   
 #  Site settings
 title: Aylestone Allotments and Leisure Gardener's Society
 description: An example site
