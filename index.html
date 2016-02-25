@@ -1,0 +1,38 @@
+---
+layout: default
+title: Events
+---
+
+<script>
+(function() {
+		$.getJSON("events.json", function(data) {
+				var items = [];
+				$.each(data.events, function(key, val) {
+						if (Date.parse(data.events[key].start) > $.now()) {
+								$(".event-" + (key + 1) ).show();
+							}
+						});
+				});
+		})();
+</script>
+
+
+
+<ul id="events">
+{% for post in site.data.events | sort 'start' %}
+<li class="event event-{{ forloop.index }}"><a href="{{ post.url }}">{{ post.title }} {{ post.start }}</a></li>
+{% endfor %}
+</ul>
+
+{% for event in site.events %}
+<div class="teaser">
+  <h2><a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></h2>
+  <div class="content">
+	{% if event.summary == null %}
+    {{ event.content | strip_html | truncatewords: 200 }}
+	{% else %}
+	{{ event.summary }}
+	{% endif %}
+  </div>
+</div>
+{% endfor %}
