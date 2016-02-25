@@ -1,27 +1,17 @@
 # This file contains a list of events.
 
-- address: 2500 Broadway
-  allday: true
-  city-state: "New York, NY"
-  end: "2015-09-19 20:30:00"
-  start: "2015-09-19 18:00:00"
-  summary: "The first ever JekyllCon"
-  title: "JekyllCon"
-  venue: Jekyll World Headquarters
+- title: "JekyllCon"
+  start: "2015-05-15 18:00:00"
+  summary: This is where you explain what it is.
   url: "http://jekyllrb.com/"
-  zip: 10025
   
-- allday: true
+- title: "Test"
   start: "2016-05-15 18:00:00"
-  title: "National Dinosaur Day"
-
-- address: 2500 Broadway
-  allday: true
-  city-state: "New York, NY"
-  end: "2015-06-15 20:30:00"
-  start: "2017-06-11 18:00:00"
-  summary: "Through the 15th"
-  title: "Tets"
-  venue: Jekyll World Headquarters
+  summary: This is where you explain what it is.
   url: "http://jekyllrb.com/"
-  zip: 10025
+
+- title: "Test"
+  start: "2017-05-15 18:00:00"
+  summary: This is where you explain what it is.
+  url: "http://jekyllrb.com/"
+  

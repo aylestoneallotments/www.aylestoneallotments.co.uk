@@ -6,7 +6,7 @@ summary: Latest news from the Aylestone Allotment Society.
 
 {% for post in paginator.posts %}
     {% unless post.categories contains 'event' %}
-<div class="result">
+<div class="teaser">
   <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
   <div class="content">
 	{% if post.summary == null %}
