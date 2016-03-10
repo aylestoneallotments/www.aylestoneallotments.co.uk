@@ -18,10 +18,7 @@
   href: "/news"
 - title: "Events"
   href: "/events"
-- title: "More"
-  href: "#"
-  subcategories:
-    - subtitle: "Contact"
-      subhref: "/more/contact"
+- title: "Contact"
+  href: "/contact"
 - title: "Search"
   href: "/search"
