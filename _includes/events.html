@@ -2,7 +2,7 @@
 <h2>Upcoming Events</h2>
 <ul class="itemlist">
 {% for post in site.data.events | sort 'start' | limit:3 %}
-  <li>
+  <li event event-{{ forloop.index }}>
 		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br>
 		{{ post.start | date_to_string }}
   </li>
