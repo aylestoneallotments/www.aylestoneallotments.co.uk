@@ -13,7 +13,7 @@ gems:
 #  Site settings
 title: Aylestone Allotments and Leisure Gardener's Society
 description: An example site
-url: www.aylestoneallotments.co.uk
+url: http://www.aylestoneallotments.co.uk
 baseurl: 
 email: newsletter@aylestoneallotments.co.uk
 
