@@ -10,11 +10,12 @@
 			{{ content }}
 		</article>
 		<aside>
+			{% include events.html %}
 			{% include posts.html %}
 			{% include mailchimp.html %}
 		</aside>
 	</div>
 </main>
-	
+{% include searchmodal.html %}
 {% include footer.html %}
 {% include closure.html %}

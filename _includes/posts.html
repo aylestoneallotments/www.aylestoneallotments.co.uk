@@ -1,12 +1,15 @@
 <div class="block block-default">
-<h3>Latest News</h3>
+<h2>Latest News</h2>
 <ul class="itemlist">
-{% for post in site.posts %}
- {% unless post.categories contains 'event' %}
+{% for post in site.posts limit:3 %}
   <li>
 		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </li>
-  {% endunless %}
-{% endfor %}
+{% if forloop.last %}
+{% if forloop.index == 3 %}
+<a class="readmore" href="{{ site.baseurl }}/news">more</a>
+{% endif %}
 </ul>
+{% endif %}
+{% endfor %}
 </div>
