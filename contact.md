@@ -10,10 +10,10 @@ To contact AALGS, please use the form below to contact the Secretary:
 
 {% comment %}Forms provided by formspree.io{% endcomment %}
 
-<form action="https://allotmentmaileu.herokuapp.com/send" method="POST">
+<form action="https://allotmentmail.herokuapp.com/send" method="POST">
   Name: <input type="text" name="name"><br>
   Email: <input type="text" name="email"><br>
   Subject: <input type="text" name="subject"><br>
   Message: <textarea name="message" cols="40" rows="5"></textarea>
-  <input type="submit" value="Send Message">
+  <inpt type="submit" value="Send Message">
 </form> 
