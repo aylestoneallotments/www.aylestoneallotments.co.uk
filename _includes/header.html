@@ -39,8 +39,8 @@
 	        <li class="nav-link{% if nav.subcategories != null %} more{% endif %} {{ nav.title | slugify }}"><a href="{% if nav.subcategories != null %}javascript:void(0){% else %}{{ site.baseurl }}{{ nav.href }}{% endif %}">{{ nav.title }}{% if nav.subcategories != null %}<span class="caret"></span>{% endif %}</a>{% if nav.subcategories != null %}<ul class="submenu">{% for subcategory in nav.subcategories %}
     <li class="nav-link {{ subcategory.subtitle | slugify }}"><a href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
     {% endfor %}</ul>{% endif %}</li>
-			{% endfor %}<li class="nav-link"><label class="label-modal-trigger" for="modal-1"><a class="modal-trigger">Search</a></label></li>
+			{% endfor %}
 	      </ul>
-	    </nav>
+	    </nav><label class="label-modal-trigger" for="modal-1"><a class="modal-trigger">Search</a></label>
 	  </div>
 	</header>

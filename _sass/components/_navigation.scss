@@ -63,6 +63,24 @@ header.navigation {
 			color: $navigation-color-hover;
 		}
 	}
+	
+	label.label-modal-trigger {
+		position: absolute;
+		top: 0;
+		right: $navigation-height;
+		display: block;
+		cursor: pointer;
+	}
+  
+	a.modal-trigger {
+		display: block;
+		background-image: url('../img/search-button.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		text-indent: -99999px;
+		height: $navigation-height;
+		width: $navigation-height;
+	}
 
   
 	// Nav menu
