@@ -10,7 +10,7 @@ To contact AALGS, please use the form below to contact the Secretary:
 
 {% comment %}Forms provided by formspree.io{% endcomment %}
 
-<form action="//formspree.io/your@email.com" method="POST">
+<form action="//formspree.io/newsletter@aylestoneallotments.co.uk" method="POST">
   Name <input type="text" name="name"><br>
   Email <input type="email" name="_replyto">
   Subject <input type="text" name="subject"><br>
