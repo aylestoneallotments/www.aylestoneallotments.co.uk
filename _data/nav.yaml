@@ -10,6 +10,8 @@
 - title: "About"
   href: "#"
   subcategories:
+    - subtitle: "Join us"
+      subhref: "/about/join-us"
     - subtitle: "History"
       subhref: "/about/history"
     - subtitle: "Our Team"

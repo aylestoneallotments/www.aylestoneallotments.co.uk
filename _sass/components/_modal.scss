@@ -4,6 +4,10 @@ label.label-modal-trigger {
 	display: inline;
 }
 
+  .modal-fade-screen {
+  	    z-index: -99999999999;
+  }
+
 .modal {
   $base-border-color: #dcdcdc !default;
   $base-border-radius: 3px !default;
