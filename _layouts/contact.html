@@ -4,7 +4,6 @@
 # http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html
 #
 ---
-{% include searchmodal.html %}
 {% include header.html %}
 <main role="main" class="page-content m-scene">
 	<div class="scene_element scene_element--fadein">
@@ -17,7 +16,7 @@
 		</aside>
 	</div>
 </main>
-
+{% include searchmodal.html %}
 <div id="map_canvas"></div>
 
 {% include footer.html %}
@@ -73,7 +72,6 @@ var bittersMap = (function () {
 		}
 	};
 }());
-
-window.onload = bittersMap.init();
+bittersMap.init();
 </script>
 {% include closure.html %}
