@@ -3,7 +3,7 @@ layout: hero
 title: Welcome to Aylestone Allotments
 summary: Aylestone Allotments and Leisure Gardeners Society (AALGS) is one of the oldest allotment societies in Leicester.
 hero-copy: Aylestone Allotments and Leisure Gardeners Society (AALGS) is one of the oldest allotment societies in Leicester.
-hero-image-url: "/website/img/allotments.jpg"
+hero-image-url: "/img/allotments.jpg"
 hero-image-color: "#98b9eb"
 published: true
 ---

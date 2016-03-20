@@ -56,8 +56,11 @@
         color: $action-color;
       }
 
-      &:active {
-        background: $pagination-background;
+      &:active,
+      &.active {
+        border-color: $brand-primary;;
+        background: $brand-primary;
+        color: #FFF;
       }
     }
   }

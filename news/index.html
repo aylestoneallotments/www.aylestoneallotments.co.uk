@@ -16,14 +16,15 @@ summary: Latest news from the Aylestone Allotment Society.
   </div>
 </div>
 {% endfor %}
-
 <div class="pagination">
   <ul>
   {% if paginator.previous_page %}
     <li><a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">Previous</a></li>
   {% else %}
   {% endif %}
-  <li><span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span></li>
+  {% for item in (1..paginator.total_pages) %}
+  <li><a {% if paginator.page == item %}class="active" href="#"{% else %} href="{{ site.baseurl }}/news{% if item != 1%}/{{ item }}{% endif %}"{% endif %}>{{item}}</a></li>
+  {% endfor %}
   {% if paginator.next_page %}
     <li><a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Next</a></li>
   {% else %}
