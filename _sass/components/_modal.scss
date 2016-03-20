@@ -3,9 +3,12 @@ label.label-modal-trigger {
     cursor: pointer;
 	display: inline;
 }
-
-  .modal-fade-screen {
-  	    z-index: -99999999999;
+  
+  .search-title {
+	  width: auto;
+	  font-weight: 700;
+	  font-family: $heading-font-family;;
+	  font-size: modular-scale(2);
   }
 
 .modal {
@@ -53,7 +56,7 @@ label.label-modal-trigger {
     padding-top: 0.6em;
     text-align: left;
     visibility: hidden;
-    z-index: 99999999999;
+    z-index: -99999999999;
 
     @include media($large-screen) {
       padding-top: 10em;
@@ -152,6 +155,7 @@ label.label-modal-trigger {
   .modal-state:checked + .modal-fade-screen {
     opacity: 1;
     visibility: visible;
+    z-index: 99999999999;
   }
 
   .modal-state:checked + .modal-fade-screen .modal-inner {
