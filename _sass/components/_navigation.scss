@@ -36,9 +36,6 @@ header.navigation {
 		@include outer-container;
 		position: relative;
 		z-index: 9999;
-		@include media ($horizontal-bar-mode) {
-			width: $max-width - em($logo-image-width / 2);
-		}
 	}
   
 	// Mobile view
