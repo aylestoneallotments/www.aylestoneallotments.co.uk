@@ -1,5 +1,5 @@
 ---
 title: Admin
 redirect_to:
-  - http://prose.io/#aylestoneallotments/www.aylestoneallotments.co.uk
+  - http://prose.io/#{{ site.github }}
 ---
