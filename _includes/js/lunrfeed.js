@@ -9,7 +9,6 @@ var index = lunr(function () {
 index.add({
   title: {{post.title | jsonify}},
   content: {{post.content | strip_html | jsonify}},
-  tags: {{post.tags | jsonify}},
   id: {{count}}
 });{% endif %}
 {% assign count = count | plus: 1 %}{% endfor %}
@@ -18,7 +17,6 @@ index.add({
 index.add({
   title: {{page.title | jsonify}},
   summary: {{page.summary | jsonify}},
-  tags: {{page.tags | jsonify}},
   id: {{count}}
 });{% endif %}
 {% assign count = count | plus: 1 %}{% endfor %}
