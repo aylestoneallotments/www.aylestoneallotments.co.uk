@@ -26,13 +26,8 @@ var store = [{% for post in site.posts %}
   "title": {{post.title | jsonify}},
   "link": {{ site.baseurl | | append: post.url | jsonify }},
   "date": {{ post.date | date: '%-d %B %Y' | jsonify }},
-   {% if post.summary != null %} 
-   "summary": {{post.summary | jsonify }},
-   {% else %}
-   "summary": {{ post.content | strip_html | truncatewords: 20 | jsonify }},
-   {% endif %}
-   }{% unless forloop.last %},{% endunless %}{% endif %}
-{% endfor %},
+  {% if post.summary != null %}"summary": {{post.summary | jsonify }},{% else %}"summary": {{ post.content | strip_html | truncatewords: 20 | jsonify }},
+   {% endif %}},{% endif %}{% endfor %}
 {% for page in site.pages %}
   {% if page.title != null %}{
   "title": {{page.title | jsonify}},
@@ -41,8 +36,8 @@ var store = [{% for post in site.posts %}
   "summary": {{page.summary | jsonify }},
   {% else %}
   "summary": {{ page.content | strip_html | truncatewords: 20 | jsonify }},
+  {% endif %}}{% unless forloop.last %},{% endunless %}
   {% endif %}
-  }{% unless forloop.last %},{% endunless %}{% endif %}
 {% endfor %}
 ]
 // builds search
