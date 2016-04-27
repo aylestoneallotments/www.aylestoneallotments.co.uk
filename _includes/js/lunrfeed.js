@@ -2,14 +2,12 @@
 var index = lunr(function () {
   this.field('title')
   this.field('content', {boost: 10})
-  this.field('category')
   this.ref('id')
 });
 {% assign count = 0 %}{% for post in site.posts %}
   {% if post.title != null %}
 index.add({
   title: {{post.title | jsonify}},
-  category: {{post.category | jsonify}},
   content: {{post.content | strip_html | jsonify}},
   tags: {{post.tags | jsonify}},
   id: {{count}}
@@ -19,7 +17,6 @@ index.add({
   {% if page.title != null %}
 index.add({
   title: {{page.title | jsonify}},
-  category: {{page.category | jsonify}},
   summary: {{page.summary | jsonify}},
   tags: {{page.tags | jsonify}},
   id: {{count}}
@@ -31,7 +28,6 @@ var store = [{% for post in site.posts %}{
   "title": {{post.title | jsonify}},
   "link": {{ site.baseurl | | append: post.url | jsonify }},
   "date": {{ post.date | date: '%-d %B %Y' | jsonify }},
-  "category": {{ post.category | jsonify }},
    {% if post.summary != null %} 
    "summary": {{post.summary | jsonify }},
    {% else %}
@@ -43,7 +39,6 @@ var store = [{% for post in site.posts %}{
   {% if page.title != null %}
   "title": {{page.title | jsonify}},
   "link": {{ site.baseurl | | append: page.url | jsonify }},
-  "category": {{ page.category | jsonify }},
   {% if page.summary != null %} 
   "summary": {{page.summary | jsonify }},
   {% else %}
