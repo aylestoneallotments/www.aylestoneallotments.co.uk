@@ -1,21 +1,23 @@
 ---
 title: News
-layout: default
+layout: news
 summary: Latest news from the Aylestone Allotment Society.
 ---
 
 {% for post in paginator.posts %}
 <div class="teaser">
-  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
   <div class="content">
 	{% if post.summary == null %}
     {{ post.content | strip_html | truncatewords: 25 }}
 	{% else %}
 	{{ post.summary }}
 	{% endif %}
+	<a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
   </div>
 </div>
 {% endfor %}
+{% if paginator.total_pages > 1 %}
 <div class="pagination">
   <ul>
   {% if paginator.previous_page %}
@@ -31,3 +33,4 @@ summary: Latest news from the Aylestone Allotment Society.
   {% endif %}
   </ul>
 </div>
+{% endif %}

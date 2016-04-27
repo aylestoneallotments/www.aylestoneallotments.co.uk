@@ -1,0 +1,28 @@
+---
+# Layouts must stay in HTML
+---
+{% include header.html %}
+
+<main role="main" class="page-content m-scene one-sidebar sidebar-first scroll-on-page">
+	<div  class="scene_element scene_element--fadein">
+		<div class="container">
+			<h1 class="title">{{ page.title }}</h1>
+					
+					<aside id="sidebar-first">
+						<div id="scroll-on-page-top">
+							{% for scrollheading in page.scrollheadings %}
+							<a class="scroll-on-page-link" href="#{% unless scrollheading['id'] %}{{ scrollheading['title'] | replace: ' ', '-' | replace: ' ', '-'  | replace: "'", '' | replace: '"', '' | downcase }}{% else %}{{ scrollheading['id'] }}{% endunless %}">{{ scrollheading['title']}}</a>
+							{% endfor %}
+						</div>
+					</aside>
+					<section id="content">
+						<article>
+							{{ content }}
+							<a class="scroll-on-page-link" href="#scroll-on-page-top">Back to top</a>
+						</article>
+					</section>
+		</div>
+	</div>
+</main>
+{% include footer.html %}
+{% include closure.html %}

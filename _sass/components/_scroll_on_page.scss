@@ -1,0 +1,87 @@
+.scroll-on-page {
+	$base-line-height: 1.5em !default;
+	$base-spacing: 1.5em !default;
+	$action-color: #477DCA !default;
+	$dark-gray: #333 !default;
+	$base-font-color: $dark-gray !default;
+
+	a {
+		color: $action-color;
+		text-decoration: none;
+	}
+
+	.scroll-on-page-link {
+		border-bottom: 1px solid transparentize($action-color, 0.8);
+		display: block;
+		margin-right: $base-spacing;
+		outline: none;
+		padding: ($base-spacing / 2) 0;
+
+		&:last-child {
+			margin-bottom: $base-spacing;
+		}
+	}
+
+	article {
+		h4 {
+			margin: 0 0 0.5em 0;
+		}
+
+		p {
+			color: $base-font-color;
+			line-height: $base-line-height;
+		}
+
+		section p:last-of-type {
+			margin-bottom: 2em;
+		}
+	}
+}
+
+#scroll-on-page-top {
+	padding: $gutter;
+}
+
+// Reverse the DOM repositioning
+
+#sidebar-first {
+	.one-sidebar.sidebar-first.scroll-on-page & {
+		// 100% width for mobile devices.
+		@include media($mobile) {
+			@include fill-parent;
+		}
+
+		// Similar logic for tablets.
+		@include media($tablet) {
+			@include span-columns(2);
+            @include shift(0);
+		}
+
+		@include media($desktop) {
+			// Span this div 2 columns wide.
+			@include span-columns(4);
+			@include shift(0);
+		}
+	}
+}
+
+#content {
+	.one-sidebar.sidebar-first.scroll-on-page & {
+		// 100% width for mobile devices.
+		@include media($mobile) {
+			@include fill-parent;
+		}
+
+		// Same logic for tablets.
+		@include media($tablet) {
+			@include span-columns(6);
+			@include shift(0);
+		}
+
+		// Span this div 7 columns wide.
+		@include media($desktop) {
+			@include span-columns(8);
+			@include shift(0);
+		}
+	}
+}

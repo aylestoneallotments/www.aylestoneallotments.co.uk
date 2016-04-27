@@ -3,12 +3,12 @@
 ---
 @charset "utf-8";
 
-@import "vendor/normalize";
+@import "../_includes/bower_components/normalize-scss/normalize";
 
 //Base
 
-@import "bourbon/bourbon";
-@import "neat/neat";
+@import "../_includes/bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../_includes/bower_components/neat/app/assets/stylesheets/neat";
 @import "base/base";
 @import "base/typography";
 @import "global";
@@ -23,14 +23,20 @@
 @import "components/navigation";
 @import "components/itemlist";
 @import "components/hero";
-@import "components/card";
-@import "components/map";
-@import "components/block";
+@import "components/google_embeds";
+@import "components/box";
+@import "components/page.default";
+@import "components/page.hero";
 @import "components/mailchimp";
 @import "components/footer";
 @import "components/profiles";
 @import "components/pagination";
 @import "components/teaser";
 @import "components/search";
-@import "components/events";
-@import "components/modal";
+@import "components/eventbrite";
+@import "components/flashes";
+@import "components/fullcalendar";
+@import "components/contact-form";
+@import "components/scroll_on_page";
+@import "components/section-button";
+// @import "components/modal";

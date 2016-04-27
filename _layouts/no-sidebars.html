@@ -1,0 +1,19 @@
+---
+# Layouts must stay in HTML
+---
+{% include header.html %}
+
+<main role="main" class="page-content m-scene no-sidebars">
+	<div  class="scene_element scene_element--fadein">
+		<div class="container">
+			<h1 class="title">{{ page.title }}</h1>
+			<section id="content">
+				<article>
+					{{ content }}
+				</article>
+			</section>
+		</div>
+	</div>
+</main>
+{% include footer.html %}
+{% include closure.html %}

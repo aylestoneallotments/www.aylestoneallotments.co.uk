@@ -1,0 +1,18 @@
+---
+title: Newsletters
+layout: default
+summary: Read our latest newsletter.
+---
+
+<div class="newsletters">
+	{% for newsletter in site.data.newsletters %}
+	<div class="newsletter">
+		<div class="newsletter-img"><img src="{{ newsletter.img }}"></div>
+		<div class="newsletter-content">
+			{% if newsletter.name != null%}<h3>{{ newsletter.name }}</h3>{% endif %}
+			{% if newsletter.description != null%}<p>{{ newsletter.description }}</p>{% endif %}
+			{% if newsletter.url != null%}<p><a href="{{ newsletter.url }}">Read Newsletter</a></p>{% endif %}
+		</div>
+	</div>
+	{% endfor %}
+</div>

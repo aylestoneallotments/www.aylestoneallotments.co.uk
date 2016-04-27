@@ -1,6 +1,14 @@
 # This file contains a list of events.
 
-- title: "Easter Festivities"
-  start: "2016-03-26 18:00:00"
+- title: "EID Test"
+  start: "2016-05-26 18:00:00"
   summary: What’s that rustle in the undergrowth? Is that a twitching of ears I can see in the distance?
+  url: "/2016/11/02/eid-test/"
+- title: "Easter Festivities"
+  start: "2016-06-26 18:00:00"
+  summary: What’s that rustle in the undergrowth? Is that a twitching of ears I can see in the distance?
+  url: "/2016/01/28/easter-festivities/"
+- title: "Easter Festivities"
+  start: "2016-09-26 18:00:00"
+  summary: 
   url: "/2016/01/28/easter-festivities/"

@@ -1,0 +1,47 @@
+.box {
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.25),0 1px 2px rgba(0,0,0,0.05);
+	padding: $gutter;
+	margin: $gutter;
+	article & {
+		margin: 0;
+	}
+}
+
+.box-default {
+	background: white;
+	border: 1px solid $light-gray;
+}
+
+.box-primary {
+	color: #fff;
+	background: $brand-primary;
+	border: 1px solid darken($brand-primary, 5%);
+	input {
+		color: $base-font-color;
+	}
+	h3 {
+		color: #fff;
+	}
+	input[type="submit"] {
+		@extend button.white
+	} 
+	a.button {
+		@extend a.button.white
+	}
+}
+
+@each $name, $color in $colors {
+	.box-#{"" + $name} {
+		background: lighten($color,40%);
+		border: 1px solid lighten($color,30%);
+		h2, h3 {
+			color: $color;
+		}
+		input[type="submit"] {
+			@extend button.#{"" + $name}
+		} 
+		a.button {
+			@extend a.button.#{"" + $name}
+		}
+	}
+}

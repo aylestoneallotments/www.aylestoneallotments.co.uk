@@ -1,0 +1,15 @@
+.section-button {
+    padding: 1em;
+    &:focus,
+    &:hover {
+      cursor: pointer;
+      background-color: lighten($brand-primary, 45%);
+      }
+
+    &:active {
+      background-color: white;
+      .card-header {
+        background-color: white;
+      }
+    }
+}

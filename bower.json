@@ -1,0 +1,26 @@
+{
+  "name": "www.greatleicester.org.uk",
+  "authors": [
+    "richardatval <richard.s@valonline.org.uk>"
+  ],
+  "description": "Javascript components for the Great Project site.",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.7",
+    "neat": "~1.7.4",
+    "normalize-css": "~4.1.1",
+    "normalize-scss": "~3.0.3",
+    "fullcalendar": "~2.7.0",
+    "lunr.js": "~0.7.0",
+    "smoothstate": "~0.7.2"
+  }
+}

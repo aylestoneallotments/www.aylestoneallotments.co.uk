@@ -1,92 +1,62 @@
 .footer {
-	$base-spacing: 1.5em !default;
-	$action-color: #477DCA !default;
-	$medium-screen: em(640) !default;
-	$large-screen: em(860) !default;
-	$footer-background: desaturate(darken($action-color, 20%), 30%);
-	$footer-color: white;
-	$footer-link-color: transparentize($footer-color, 0.6);
-	$footer-disclaimer-color: transparentize($footer-color, 0.6);
+  $base-spacing: 1.5em !default;
+  $footer-background: lighten($light-gray, 20%);
+  $footer-color: desaturate(darken($footer-background, 40%), 50%);
+  $footer-link-color: desaturate(darken($footer-background, 40%), 50%);
+  $footer-disclaimer-color: desaturate(darken($footer-background, 40%), 50%);
+  background: $footer-background;
+  padding-top: $gutter*2;
+  
+  .footer-links {
+	  padding: $gutter;
+      @include media($mobile) {
+        @include fill-parent;
+      }
 
-	background: $footer-background;
-	padding: flex-gutter();
-	width: 100%;
-	display: inline-block;
-
-	.footer-inner {
-		@include outer-container;
-		@include media ($horizontal-bar-mode) {
-			max-width: $max-width - em($logo-image-width / 2);
-		}
+      // Same logic for tablets.
+      @include media($tablet) {
+        @include span-columns(8/3);
+		margin-right: 0;
+      }
+  }
+  
+    .footer-copyright {
+	@include fill-parent;
 	}
 
-	ul {
-		line-height: 1.5em;
-		margin: 0;
-		padding: 0;
-    
-		@include media($large-screen) {
-			float: left;
-			line-height: 1.8em;
-			margin-bottom: 0;
-		}
-	}
+  ul {
+	  padding-left: 0;
+    margin-bottom: $base-spacing * 2;
+  }
 
-	ul li {
-		list-style: none;
-		padding-right: 1em;
+  li {
+    line-height: 1.5em;
+    list-style: none;
+  }
 
-		@include media($large-screen) {
-			display: inline;
-			text-align: left;
-		}
-	}
+  li a {
+    color: $footer-link-color;
+    text-decoration: none;
 
-	ul li a {
-		color: $footer-link-color;
-		text-decoration: none;
+    &:focus,
+    &:hover {
+      color: darken($footer-color, 20%);
+    }
+  }
 
-		&:focus,
-		&:hover {
-			color: transparentize($footer-color, 0);
-		}
-	}
+  li h3 {
+    color: $footer-color;
+    font-size: 1em;
+    margin-bottom: 0.4em;
+  }  
 
-	.footer-secondary-links {
-		@include media($large-screen) {
-			float: right;
-		}
-
-		ul.footer-social {
-			margin: 1em 0 0 0;
-
-			@include media($large-screen) {
-				float: right;
-				margin-top: 0;
-			}
-
-			li {
-				font-size: 1em;
-				float: left;
-				line-height: 0;
-				margin: 0;
-				padding-right: 0.7em;
-
-				&:last-child {
-					padding-right: 0;
-				}
-			}
-
-			img {
-				height: 1.6em;
-				opacity: 0.7;
-				padding: 1px;
-
-				&:focus,
-				&:hover {
-					opacity: 1;
-				}
-			}
-		}
-	}
+  .footer-copyright {
+    padding: $gutter;
+    clear: both;
+    width: 100%;
+    color: $footer-disclaimer-color;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin: auto;
+  }
 }

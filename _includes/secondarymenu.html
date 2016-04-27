@@ -1,7 +1,7 @@
 {% assign args = page.path | split: '/' %}
 {% assign parent = args | first %}
 
-<div class="block block-default">
+<div class="box box-default">
 {% for nav in site.data.nav %}
 {% capture navparent %}{{ nav.title | downcase }}{% endcapture %}
 {% if navparent == parent %}

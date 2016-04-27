@@ -1,77 +1,26 @@
 ---
 # Layouts must stay in HTML
-#
-# http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html
-#
 ---
 {% include header.html %}
-<main role="main" class="page-content m-scene">
-	<div class="scene_element scene_element--fadein">
-		<article>
+
+<main role="main" class="page-content m-scene one-sidebar sidebar-second page-contact">
+	<div  class="scene_element scene_element--fadein">
+		<div class="container">
 			<h1 class="title">{{ page.title }}</h1>
-			{{ content }}
-		</article>
-		<aside>
-			{% include contactaside.html %}
-		</aside>
+			<section id="content">
+				<article>
+					{{ content }}
+				</article>
+			</section>
+			<aside id="sidebar-second">
+			<div class="box box-default">
+			<h3>Find us</h3>
+			<p>You can find us at 53 Copinger Rd, Leicester, LE2 6LF</p>
+			{% include googlemap.html location='53 Copinger Rd, Leicester, LE2 6LF' %}
+			</div>
+			</aside>
+		</div>
 	</div>
 </main>
-{% include searchmodal.html %}
-<div id="map_canvas"></div>
-
 {% include footer.html %}
-<script src="https://maps.googleapis.com/maps/api/js"></script>
-<script>
-var bittersMap = (function () {
-	var myLatlng = new google.maps.LatLng({{ page.map-coordinates }}),
-	mapCenter = new google.maps.LatLng({{ page.map-coordinates }}),
-	mapCanvas = document.getElementById('map_canvas'),
-	mapOptions = {
-		center: mapCenter,
-		zoom: 16,
-		scrollwheel: false,
-		draggable: true,
-		disableDefaultUI: true,
-		mapTypeId: google.maps.MapTypeId.ROADMAP
-	},
-	map = new google.maps.Map(mapCanvas, mapOptions),
-	contentString =
-	'<div id="content">'+
-	'<div id="siteNotice">'+
-	'</div>'+
-	'<h1 id="firstHeading" class="firstHeading">{{ page.map-marker-title}}</h1>'+
-	'<div id="bodyContent"'+
-	'<p>{{ page.map-marker-content }}</p>'+
-	'</div>'+
-	'</div>',
-	infowindow = new google.maps.InfoWindow({
-		content: contentString,
-		maxWidth: 300
-	}),
-	marker = new google.maps.Marker({
-		position: myLatlng,
-		map: map,
-		title: '{{ page.map-marker-title }}'
-	});
-
-	return {
-		init: function () {
-			map.set('styles', [{
-				featureType: 'landscape',
-				elementType: 'geometry',
-				stylers: [
-					{ hue: '#ffff00' },
-					{ saturation: 30 },
-					{ lightness: 10}
-				]}
-			]);
-
-			google.maps.event.addListener(marker, 'click', function () {
-				infowindow.open(map,marker);
-			});
-		}
-	};
-}());
-bittersMap.init();
-</script>
 {% include closure.html %}

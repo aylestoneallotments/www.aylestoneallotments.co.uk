@@ -3,19 +3,25 @@
 ---
 {% include header.html %}
 
-<main role="main" class="page-content m-scene">
-	<div class="scene_element scene_element--fadein">
-		<article>
+<main role="main" class="page-content m-scene one-sidebar sidebar-second">
+	<div  class="scene_element scene_element--fadein">
+		<div class="container">
 			<h1 class="title">{{ page.title }}</h1>
-			{{ content }}
-		</article>
-		<aside>
-			{% include searchmodal.html %}
-			{% include posts.html %}
-			{% include mailchimp.html %}
-		</aside>
+			<section id="content">
+				<article>
+					{{ content }}
+				</article>
+				<footer>
+				{% include eventbrite.html eid= page.eid %}
+			</footer>
+			</section>
+			<aside id="sidebar-second">
+				{% include events.html %}
+				{% include posts.html %}
+				{% include mailchimp.html %}
+			</aside>
+		</div>
 	</div>
 </main>
-	
 {% include footer.html %}
 {% include closure.html %}

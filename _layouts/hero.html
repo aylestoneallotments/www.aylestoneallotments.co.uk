@@ -2,30 +2,37 @@
 # Layouts must stay in HTML
 ---
 {% include header.html %}
-<main role="main" class="m-scene">
-	<div class="scene_element scene_element--fadein">
-		<header class="hero" {% if page.hero-image-url != null %}style="background-image: url('{{ page.hero-image-url }}'); background-color: {{ page.hero-image-color }};" {% endif %}>
-			<div class="hero-inner">
-				<div class="hero-copy">
-					<h1>{{ page.title }}</h1>
-					<p>{{ page.hero-copy }}</p>	
+<main role="main" class="page-content m-scene one-sidebar sidebar-second">
+	<div  class="scene_element scene_element--fadein">
+		<section class="band hero-band">
+		<div class="container">
+			<header class="hero {{ page.hero-classes }}" {% if page.hero-image-url != null %}style="background-image: url('{{ page.hero-image-url }}'); background-color: {{ page.hero-image-color }};" {% endif %}>
+				<div class="hero-inner">
+					<div class="hero-copy">
+						<h1>{{ page.title }}</h1>
+						<p>{{ page.hero-copy }}</p>	
+						{% if page.hero-link-copy and page.hero-link-url != "" %}
+						<p><a href="{{ page.hero-link-url }}" class="button">{{ page.hero-link-copy }}</a></p>
+						{% endif %}
+					</div>
 				</div>
 			</div>
 		</div>
+	</section>
 	</header>
-	<section class="page-content">
-		<article>
-			{{ content }}
-		</article>
-		<aside>
+	<div class="container">
+		<section id="content">
+			<article>
+				{{ content }}
+			</article>
+		</section>
+		<aside id="sidebar-second">
 			{% include events.html %}
 			{% include posts.html %}
 			{% include mailchimp.html %}
 		</aside>
-	</section>
+	</div>
 </div>
 </main>
-
-{% include searchmodal.html %}
 {% include footer.html %}
 {% include closure.html %}

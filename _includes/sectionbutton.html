@@ -1,0 +1,8 @@
+<div class="section-button">
+{% if include.url != null%}<h2><a href="{{ include.url }}">{{ include.title }}</a></h2>{% endif %}
+{% if include.img != null%}<a href="{{ include.url }}">
+		<img src="{{ include.img }}" width="460" height="306" alt="">
+	</a>{% endif %}
+{% if include.text != null%}<p>{{ include.text }}</p>{% endif %}
+{% if include.buttontext != null%}<a href="{{ include.url }}" class="button">{{ include.buttontext }}</a>{% endif %}
+</div>

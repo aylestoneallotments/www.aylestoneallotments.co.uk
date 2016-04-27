@@ -1,5 +1,8 @@
-ul.itemlist {
+ul.item-list {
+	list-style: none;
+	padding-left: 0;
 	li {
+		padding-left: 0;
 		padding-bottom: 0.25em;
 	}
 	margin-bottom: 1em;

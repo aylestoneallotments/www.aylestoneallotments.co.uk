@@ -8,23 +8,28 @@ gems:
   - jekyll-coffeescript
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
   - jekyll-feed
    
 #  Site settings
-title: Aylestone Allotments and Leisure Gardener's Society
-description: An example site
+title: Aylestone Allotments
+description: One of the oldest allotment societies in Leicester
 url: http://www.aylestoneallotments.co.uk
 baseurl: 
 email: newsletter@aylestoneallotments.co.uk
+github: aylestoneallotments/www.aylestoneallotments.co.uk
+logo_path: /img/logo.svg
+copyright: "Copyright 2011 Aylestone Allotments and Leisure Gardeners Society."
 
 #  Social media settings
 
-facebook: https://www.facebook.com/Aylestone-Allotments-and-Leisure-Gardeners-Society-AALGS-203607403321766/
-twitter : tigefa_team
-facebook: tigefa.team
+facebook: "Aylestone-Allotments-and-Leisure-Gardeners-Society-AALGS-203607403321766/"
+twitter : ""
+instagram: ""
+
 permalink: pretty
 
-analyticstracking: "UA-35898440-1"
+analyticstracking: " "
 
 paginate: 5
 paginate_path: "/news/:num/"
@@ -32,15 +37,11 @@ paginate_path: "/news/:num/"
 #  Timezone
 timezone: Europe/London
 
-#  Custom Collections
-
-collections:
-  events:
-    output: true
+exclude: ['bower.json']
 
 #  Configuration for prose.io online editor
 prose:
-  ignore: ['_includes','assets','_assets','_layouts','_plugins','/.jekyll-metadata','feed.xml','bin','js','css','_sass','_config.yml']
+  ignore: ['_includes','assets','_assets','_layouts','_plugins','/.jekyll-metadata','feed.xml','bin','js','css','_sass','_config.yml','bower.json']
   media: img
   metadata:
     _posts:
@@ -49,21 +50,6 @@ prose:
           label: "Date"
           element: "text"
           value: CURRENT_DATETIME
-      - name: "published"
-        field:
-          label: "Published"
-          element: "checkbox"
-          value: false
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "default"
-    _events:
-      - name: "date"
-        field:
-          label: "Date"
-          element: "text"
-          value: 2012-12-22 14:07
       - name: "published"
         field:
           label: "Published"

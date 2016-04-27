@@ -1,46 +1,54 @@
-	<!DOCTYPE html>
-	<html class="no-js" lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="{{ site.description }}">
-		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.title }}</title>
-		<script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
-		<script type="text/javascript">
-		  WebFont.load({
-		    google: {
-		      families: ['Bitter:700:latin','Merriweather:400:latin']
-		    }
-		  });
-		</script>
-		<style type="text/css">
-		  .wf-loading body, .wf-loading label { visibility: hidden; }
-		  .wf-active body, .wf-inactive body, .wf-active label, .wf-inactive label { 
-		    visibility: visible; font-family: 'Merriweather'; 
-		  }
-		  .wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4,  { visibility: hidden; }
-		  .wf-active h1, .wf-active h2,.wf-active h3,.wf-active h4, .wf-inactive h1, .wf-inactive h2, .wf-inactive h3, .wf-inactive h4 { 
-		    visibility: visible; font-family: 'Bitter'; 
-		  }
-		</style>
-		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/application.css">
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	</head>
-	<body>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="{{ site.description }}">
+	<meta property="og:site_name" content="{{ site.title }}" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="{{ site.baseurl }}" />
+	<meta property="og:title" content="{{ site.title }}" />
+	<meta property="og:description" content="{{ site.description }}" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:url" content="https://www.valonline.org.uk/" />
+	<meta name="twitter:title" content="{{ site.title }}" />
+	<meta name="twitter:description" content="{{ site.description }}" />
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.title }}</title>
+	<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/vnd.microsoft.icon" />
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/application.css">
+</head>
+<body>
 	<header class="navigation" role="banner">
-	  <div class="navigation-wrapper">
-	    <a href="{{ site.baseurl }}/" class="logo">AALGS</a>
-	    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
-	    <nav role="navigation">
-	      <ul id="js-navigation-menu" class="navigation-menu show">
-			 {% for nav in site.data.nav %}
-	        <li class="nav-link{% if nav.subcategories != null %} more{% endif %} {{ nav.title | slugify }}"><a href="{% if nav.subcategories != null %}javascript:void(0){% else %}{{ site.baseurl }}{{ nav.href }}{% endif %}">{{ nav.title }}{% if nav.subcategories != null %}<span class="caret"></span>{% endif %}</a>{% if nav.subcategories != null %}<ul class="submenu">{% for subcategory in nav.subcategories %}
-    <li class="nav-link {{ subcategory.subtitle | slugify }}"><a href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
-    {% endfor %}</ul>{% endif %}</li>
-			{% endfor %}
-	      </ul>
-	    </nav><label class="label-modal-trigger" for="modal-1"><a class="modal-trigger">Search</a></label>
-	  </div>
+		<div class="navigation-wrapper">
+			<a aria-label="Home" href="{{ site.baseurl }}/" class="logo"><h1>{{ site.title }}</h1></a>
+			<a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+			<a href="/search" class="navigation-search-button" id="js-search-toggle">Search</a>
+			<nav role="navigation">
+				<ul id="js-navigation-menu" class="navigation-menu show">
+					{% for nav in site.data.nav %}
+					<li class="nav-link{% if nav.subcategories != null %} more{% endif %} {{ nav.title | slugify }}"><a href="{% if nav.subcategories != null %}javascript:void(0){% else %}{{ site.baseurl }}{{ nav.href }}{% endif %}">{{ nav.title }}{% if nav.subcategories != null %}<span class="caret"></span>{% endif %}</a>{% if nav.subcategories != null %}<ul class="submenu">{% for subcategory in nav.subcategories %}
+						<li class="{{ subcategory.subtitle | slugify }}"><a href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+						{% endfor %}</ul>{% endif %}</li>
+						{% endfor %}
+					</ul>
+				</div>
+				<div class="search-tools-wrapper">
+					<div class="search-tools">
+						<div class="search-bar">
+							<form class="search-form" action="/search/" id="search-form" accept-charset="UTF-8" name="search-form">
+								<div>
+									<div class="container-inline form-wrapper" id="edit-basic">
+										<div class="form-item form-type-textfield form-item-keys">
+											<label class="element-invisible" for="edit-keys">Enter your keywords</label><input placeholder="Enter Search" type="text" id="edit-keys" name="keys" value="" size="40" maxlength="255" class="form-text">
+										</div><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
 	</header>

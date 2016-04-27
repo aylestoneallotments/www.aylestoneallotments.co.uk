@@ -1,14 +1,34 @@
-@import "neat-helpers"; // or "../neat/neat-helpers" when not in Rails
+@import "../../_includes/bower_components/neat/app/assets/stylesheets/neat-helpers";
 
-// Neat Overrides
-// $column: 90px;
-// $gutter: 30px;
-// $grid-columns: 12;
-// $max-width: em(1088);
+// Bourbon grid display. Comment out to remove display.
+$visual-grid: false;
+$visual-grid-color: #eeeeee;
 
-// Neat Breakpoints
-$medium-screen: em(640);
-$large-screen: em(860);
+// Set to false if you'd like to remove the responsiveness.
+$responsive: true;
 
-$medium-screen-up: new-breakpoint(min-width $medium-screen 4);
-$large-screen-up: new-breakpoint(min-width $large-screen 8);
+// Setup the column, grid, and gutter amounts.
+$column: 60px;
+$gutter: 20px;
+$grid-columns: 4;
+
+// We set the max width of the page using the px to em function in Bourbon.
+// the first value is the pixel value of the width and the second is the base font size of your theme.
+// In this instance we want the max width to be 1088px and on Line 6 of style.sass we have reset the base
+// font size to 13px so the first value would be 1088 and the second 13
+// ex. em(1088, 13)
+$font-size: $base-font-size;
+$max-width-px: 1088px;
+$max-width: em($max-width-px, $font-size);
+
+// Define your breakpoints.
+$mobile: new-breakpoint(min-width em(320px, $font-size) 4);
+$tablet: new-breakpoint(min-width em(720px, $font-size) 8);
+$desktop: new-breakpoint(min-width em(960px, $font-size) 12);
+
+// Import grid to be used (Bourbon Neat).
+// We load this after we provide our overrides: https://github.com/thoughtbot/neat#changing-the-defaults
+@import "../../_includes/bower_components/neat/app/assets/stylesheets/neat";
+
+// Import local files
+@import "variables";
