@@ -53,7 +53,7 @@ $(document).ready(function() {
 
 	        if (sParameterName[0] === sParam) {
 	            var returnvalue = sParameterName[1] === undefined ? true : sParameterName[1];
-				return returnvalue.replace("+"," ")
+				return returnvalue.split("+").join(" ");
 	        }
 	    }
 	};
