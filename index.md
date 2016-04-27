@@ -11,6 +11,6 @@ hero-classes: ""
 
 Aylestone Allotments and Leisure Gardeners Society works to promote gardening and vegetable growing. We have a more than a hundred members and [a site](/about/find-us) with 200 rentable plots.
 
-We sociable organisation where experienced and novice gardeners are equally welcome. We run educational talks, regular social events and have our own shop.
+We are sociable organisation where experienced and novice gardeners are equally welcome. We run educational talks, regular social events and have our own shop.
 
 {% include box.html title="How do I get an allotment?" text="We currently have plots available. Please read our 'How to join' page to find out more." buttontext="Learn more" url="/about/how-to-join" class="box-green"  %}
