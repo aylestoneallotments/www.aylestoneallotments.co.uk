@@ -310,7 +310,7 @@ header.navigation {
 						content: "";
 						padding-left: 0;
 					}
-					border-top: none;
+					border-color: $navigation-nav-button-background-hover;
 					border-bottom: none;
 					background-color: $navigation-nav-button-background-hover;
 					padding-left: $navigation-submenu-padding;
