@@ -1,7 +1,8 @@
 ---
 title: EID Test
-layout: event
+layout: default
 published: true
+summary: "What’s that rustle in the undergrowth?"
 date: "2016-11-02 18:54 +0000"
 eid: "23237718642"
 ---
