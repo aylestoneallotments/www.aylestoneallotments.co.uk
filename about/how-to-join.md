@@ -18,4 +18,4 @@ As a community, we tend to congregate around the Seed Hut where we operate a sma
 
 We hold a variety of social events and competitions throughout the year, as well as taster events for those who are interested in taking a look around the site.
 
-{% include box.html title="Find out more" text="Plots usually become available in October. For more information about joining, please our Secretary." url="/contact" buttontext="Contact us" class="box-green" %}
+{% include box.html title="Find out more" text="Plots usually become available in October. For more information about joining, please contact our Secretary." url="/contact" buttontext="Contact us" class="box-green" %}
