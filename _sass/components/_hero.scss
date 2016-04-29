@@ -8,7 +8,7 @@ $hero-color: desaturate(darken($hero-background-color, 50%), 50%);
 $gradient-angle: 10deg;
 $hero-image: '#{"" + $image-directory}/hero-home.jpg';
 @include background(url($hero-image));
-background-position: center top ;
+background-position: center bottom ;
 background-repeat: no-repeat;
 background-color: $hero-background-color;
 background-size: auto auto;
@@ -17,11 +17,11 @@ background-size: auto auto;
 	@include outer-container;
 	@include clearfix;
 	text-align: left;
-	padding-top: 320px;
+	padding-bottom: 300px;
 	.hero-copy {
-		padding: $gutter;
+		padding: $gutter $gutter 0 $gutter;
 		h1 {
-			font-size: 1.4em;
+			font-size: 1.5em;
 			color: $hero-color;
 			line-height: 1.1em;
 			a {
@@ -55,7 +55,6 @@ background-size: auto auto;
 			text-align: left;
       
 			h1 {
-				font-size: 1.4em;
 				margin-bottom: 0.5em;
 			}
 		}
