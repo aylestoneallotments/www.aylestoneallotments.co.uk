@@ -381,17 +381,18 @@ a.logo {
 			margin-left: $gutter;
 		}
 	max-height: $navigation-height;
-		.svg & {
-			background-image:url('#{"" + $image-directory}/logo.svg');
-		}
+	background-image:url('#{"" + $image-directory}/logo.svg');
+		.no-svg & {
 			background-image:url('#{"" + $image-directory}/logo.png');
+		}
 }
 
 .navigation-menu-button {
-	.svg & {
-		background-image:url('#{"" + $image-directory}/navigation-button.svg');
+	background-image:url('#{"" + $image-directory}/navigation-button.svg');
+	.no-svg & {
+		background-image: url('#{"" + $image-directory}/navigation-button.png');
 	}
-	background-image: url('#{"" + $image-directory}/navigation-button.png');
+	
 	background-repeat: no-repeat;
 	background-position: center center;
 	width: 43px;
@@ -414,10 +415,10 @@ a.logo {
 	.no-js & {
 		display: none;
 	}
-	.svg & {
-		background-image:url('#{"" + $image-directory}/search-button.svg');
+	background-image:url('#{"" + $image-directory}/navigation-button.svg');
+	.no-svg & {
+		background-image: url('#{"" + $image-directory}/navigation-button.png');
 	}
-	background-image: url('#{"" + $image-directory}/search-button.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	width: 43px;
