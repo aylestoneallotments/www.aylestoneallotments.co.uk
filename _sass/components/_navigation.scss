@@ -415,9 +415,9 @@ a.logo {
 	.no-js & {
 		display: none;
 	}
-	background-image:url('#{"" + $image-directory}/navigation-button.svg');
+	background-image:url('#{"" + $image-directory}/search-button.svg');
 	.no-svg & {
-		background-image: url('#{"" + $image-directory}/navigation-button.png');
+		background-image: url('#{"" + $image-directory}/search-button.png');
 	}
 	background-repeat: no-repeat;
 	background-position: center center;
