@@ -1,7 +1,6 @@
 ---
 ---
 
-{% include js/modernizr.js %}
 {% include bower_components/moment/min/moment.min.js %}
 {% include bower_components/fullcalendar/dist/fullcalendar.min.js %}
 {% include js/jquery.jqgoogleforms.min.js %}
