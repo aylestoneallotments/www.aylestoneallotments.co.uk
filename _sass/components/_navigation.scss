@@ -18,7 +18,7 @@ $navigation-active-link-color: transparentize(white, 0.5);
 $navigation-submenu-padding: 0.7em;
 $navigation-submenu-width: 14em;
 $navigation-font-weight: bold;
-$horizontal-bar-mode: $large-screen;
+$horizontal-bar-mode: em(800px);
 $logo-image-height: 21px;
 $logo-image-width: 80px;
 $small-screen: em($gutter + $logo-image-width + $navigation-height + $navigation-height + 15px);
