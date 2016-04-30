@@ -95,7 +95,7 @@ header.navigation {
 		z-index: 9999;
 		font-weight: bold;
 
-		&.show {
+		&.show, .no-js & {
 			display: block;
 		}
 
