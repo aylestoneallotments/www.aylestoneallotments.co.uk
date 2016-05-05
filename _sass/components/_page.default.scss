@@ -4,6 +4,22 @@ h1.title {
 	margin-bottom: 0;
 }
 
+#content {
+	ul {
+		list-style: none;
+		li {
+			padding-left: 1em;
+		}
+		li:before {
+			content: "–";
+			color: $brand-primary;
+			width: 5px;
+			padding-right: 1em;
+			margin-left: -1.65em;
+		}
+	}
+}
+
 article {
 	padding: $gutter;
 	ul {
