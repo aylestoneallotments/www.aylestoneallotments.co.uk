@@ -1,5 +1,8 @@
-<div class="box box-green">
-<h3>Don’t lose the plot - Read our newsletter</h3>
-<p>Find out the latest goings-on down at AALGS  by reading our newsletter. Filled with original illustrations, informative articles, interviews, photos and competitions, AALGS brings you the best of each season.</p>
-<p><a href="/news/newsletters" class="button">Read our newsletter</a></p>
-</div>
+<div class="box box-default">
+{% for newsletter in site.data.newsletters limit:1 %}
+<h3>{{ newsletter.name }}</h3>
+<div class="newsletter-img">{% if newsletter.url != null%}<a href="{{ newsletter.url }}">{% endif %}<img src="{{ newsletter.img }}">{% if newsletter.url != null%}</a>{% endif %}
+{% if newsletter.description != null%}<p>{{ newsletter.description }}</p>{% endif %}
+{% if newsletter.url != null%}<p><a class="button" href="{{ newsletter.url }}">Read Newsletter</a></p>{% endif %}
+{% endfor %}
+<a href="{{ site.baseurl }}/news/newsletters">Read back issues</a></div>
