@@ -1,6 +1,6 @@
 ---
 layout: hero
-title: Aylestone Allotments and Leisure Gardeners Society
+title: "Aylestone Allotments and Leisure Gardeners' Society"
 summary: Helping families move toward a bright future.
 "hero-image-url": "img/hero-home.jpg"
 "hero-copy": We are one of the oldest allotment societies in Leicester. We work to promote gardening and vegetable growing.
