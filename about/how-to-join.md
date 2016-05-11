@@ -1,7 +1,8 @@
 ---
 title: How to join and what to expect
 layout: subpage
-summary: True to our roots, we are a friendly and diverse group at AALGS.
+summary: "True to our roots, we are a friendly and diverse group at AALGS."
+published: true
 ---
 
 True to our roots, we are a friendly and diverse group at AALGS. From the very young children who come to ‘help’ their families with the digging, to our invaluably wise Members in their 90s who are still doing their bit, no matter what your experience of allotment gardening, there will be something here for you.
@@ -12,9 +13,9 @@ There are currently around 200 plots on our site, most of which are around 300 s
 
 Our biggest let is currently held by the [Saffron Acres Project](http://srcentre.org.uk/saffron-acres/), a wonderful community gardening venture aiming to increase understanding of healthy, locally-grown, fresh food, bringing people together and improving the environment along the way. Many of our Members volunteer at SAP.
 	
-![Aylestone Allotments Site](/img/seed-hut.jpg "The seed hut") __The seed hut, which has our shop and provides space to socialise__
+![Aylestone Allotments Site](/img/seed-hut.jpg "The seed hut") __The Seed Hut, where our shop is located, provides space to socialise__
 
-As a community, we tend to congregate around the Seed Hut where we operate a small shop offering competitively priced seeds, fertilisers, bulbs and other related materials to our Members, along with plenty of advice on how to plant them when they need it. We sell tea, coffee and other refreshments here, and there is also a small library of gardening books to help you along on your endeavours. The Seed Hut is open at the weekend, and sometimes during the week in the summertime, depending on the good will of the lovely Members who volunteer to run it. 
+As a community, we tend to congregate around the Seed Hut where we operate a small shop offering competitively priced seeds, fertilisers, bulbs and other related materials to our Members, along with plenty of advice on how to plant them when they need it. The Seed Hut is run by our Members, for our Members, on a volunteer-led, not-for-profit basis. We sell tea, coffee and other refreshments here, and there is also a small library of gardening books to help you along on your endeavours. The Seed Hut is open at the weekend, and sometimes during the week in the summertime, depending on the good will of the brilliant volunteers who run it. 
 
 ![Aylestone Allotments Site](/img/rhubarb.jpg "The seed hut") __Some lovely rhubarb growing on site__
 
