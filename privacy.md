@@ -4,114 +4,74 @@ layout: scroll
 summary: Privacy and cookie information for the Aylestone Allotments website
 scrollheadings:
   - title: "Overview"
-  - title: "What we collect's"
-  - title: "What information do we gather"
-  - title: "Security"
-  - title: "How we use cookies"
-  - title: "Links to other websites"
-  - title: "Controlling your personal information"
+  - title: "The Website"
+  - title: "Use of Cookies"
+  - title: "Contact & Communication"
+  - title: "Email Newsletter"
+  - title: "External Links"
+  - title: "Adverts and Sponsored Links"
+  - title: "Social Media Platforms"
+  - title: "Shortened Links in Social Media"
 ---
 
 ### Overview
 
-This privacy policy sets out how Voluntary Action LeicesterShire uses and protects any information that you give to us when you use this website.
+This privacy policy is for this website [{{ site.url | replace: 'http://', '' }}]({{ site.url }}) and provided by {{ site.title }} and governs the privacy of its users who choose to use it.
 
-Voluntary Action LeicesterShire is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, it will only be used in accordance with this privacy statement.
+The policy sets out the different areas where user privacy is concerned and outlines the obligations & requirements of the users, the website and website owners. Furthermore the way this website processes, stores and protects user data and information will also be detailed within this policy.
 
-Voluntary Action LeicesterShire may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes. This policy is effective from 28 January 2015.
+### The Website
 
-### What we collect's
+This website and its owners take a proactive approach to user privacy and ensure the necessary steps are taken to protect the privacy of its users throughout their visiting experience. This website complies to all UK national laws and requirements for user privacy.
 
-We may collect the following information:
+### Use of Cookies
 
-* your name
-* your organisation name and details
-* your job title
-* contact information including email address
-* demographic information such as postcode, preferences and interests other information relevant to customer surveys and our work with the sector
+This website uses cookies to better the users experience while visiting the website. Where applicable this website uses a cookie control system allowing the user on their first visit to the website to allow or disallow the use of cookies on their computer / device. This complies with recent legislation requirements for websites to obtain explicit consent from users before leaving behind or reading files such as cookies on a user's computer / device.
 
-### What information do we gather
+Cookies are small files saved to the user's computers hard drive that track, save and store information about the user's interactions and usage of the website. This allows the website, through its server to provide the users with a tailored experience within this website.
 
-We require this information to understand your needs and provide you with a better service, and in particular for the following reasons:
+Users are advised that if they wish to deny the use and saving of cookies from this website on to their computers hard drive they should take necessary steps within their web browsers security settings to block all cookies from this website and its external serving vendors.
 
-* Internal record keeping.
-* We may use the information to improve our products and services.
-* We may periodically send information about training, funding and other sector-specific activities.
-* From time to time, we may also use your information to contact you for market research purposes. We may contact you by email, phone, fax or mail. We may use the information to customise the website according to your interests. You may opt out of this by contacting our helpline on 0116 257 5050.
+This website uses tracking software to monitor its visitors to better understand how they use it. This software is provided by Google Analytics which uses cookies to track visitor usage. The software will save a cookie to your computers hard drive in order to track and monitor your engagement and usage of the website, but will not store, save or collect personal information. You can read Google's privacy policy here for further information [http://www.google.com/privacy.html](http://www.google.com/privacy.html).
+Other cookies may be stored to your computers hard drive by external vendors when this website uses referral programs, sponsored links or adverts. Such cookies are used for conversion and referral tracking and typically expire after 30 days, though some may take longer. No personal information is stored, saved or collected.
 
-### Security
+### Contact & Communication
 
-We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online.
+Users contacting this website and/or its owners do so at their own discretion and provide any such personal details requested at their own risk. Your personal information is kept private and stored securely until a time it is no longer required or has no use, as detailed in the Data Protection Act 1998. Every effort has been made to ensure a safe and secure form to email submission process but advise users using such form to email processes that they do so at their own risk.
+This website and its owners use any information submitted to provide you with further information about the products / services they offer or to assist you in answering any questions or queries you may have submitted. This includes using your details to subscribe you to any email newsletter program the website operates but only if this was made clear to you and your express permission was granted when submitting any form to email process. Or whereby you the consumer have previously purchased from or enquired about purchasing from the company a product or service that the email newsletter relates to. This is by no means an entire list of your user rights in regard to receiving email marketing material. Your details are not passed on to any third parties.
 
-### How we use cookies
+### Email Newsletter
 
-A cookie is a small file which asks permission to be placed on your computer’s hard drive. Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit a particular site. Cookies allow web applications to respond to you as an individual. The web application can tailor its operations to your needs, likes and dislikes by gathering and remembering information about your preferences.
+This website operates an email newsletter program, used to inform subscribers about products and services supplied by this website. Users can subscribe through an online automated process should they wish to do so but do so at their own discretion. Some subscriptions may be manually processed through prior written agreement with the user.
 
-We use traffic log cookies to identify which pages are being used. This helps us analyse data about web page traffic and improve our website in order to tailor it to customer needs. We only use this information for statistical analysis purposes and then the data is removed from the system.
+Subscriptions are taken in compliance with UK Spam Laws detailed in the Privacy and Electronic Communications Regulations 2003. All personal details relating to subscriptions are held securely and in accordance with the Data Protection Act 1998. No personal details are passed on to third parties nor shared with companies / people outside of the company that operates this website. Under the Data Protection Act 1998 you may request a copy of personal information held about you by this website's email newsletter program. A small fee will be payable. If you would like a copy of the information held on you please write to the business address at the bottom of this policy.
 
-Overall, cookies help us provide you with a better website, by enabling us to monitor which pages you find useful and which you do not. A cookie in no way gives us access to your computer or any information about you, other than the data you choose to share with us.
+Email marketing campaigns published by this website or its owners may contain tracking facilities within the actual email. Subscriber activity is tracked and stored in a database for future analysis and evaluation. Such tracked activity may include; the opening of emails, forwarding of emails, the clicking of links within the email content, times, dates and frequency of activity [this is by no far a comprehensive list].
+This information is used to refine future email campaigns and supply the user with more relevant content based around their activity.
 
-You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer.
+In compliance with UK Spam Laws and the Privacy and Electronic Communications Regulations 2003 subscribers are given the opportunity to un-subscribe at any time through an automated system. This process is detailed at the footer of each email campaign. If an automated un-subscription system is unavailable clear instructions on how to un-subscribe will by detailed instead.
 
-This may prevent you from taking full advantage of the website.
+### External Links
 
-List of the main cookies used by the Voluntary Action LeicesterShire website:
+Although this website only looks to include quality, safe and relevant external links, users are advised adopt a policy of caution before clicking any external web links mentioned throughout this website. (External links are clickable text / banner / image links to other websites, similar to; www.craftykingsboutique.co.uk or Kings Trains Models.)
 
-#### Google Analytics Tracking
+The owners of this website cannot guarantee or verify the contents of any externally linked website despite their best efforts. Users should therefore note they click on external links at their own risk and this website and its owners cannot be held liable for any damages or implications caused by visiting any external links mentioned.
 
-    _utma
-   _utmb
-   _utmc
-   _utmz
+### Adverts and Sponsored Links
+	
+This website may contain sponsored links and adverts. These will typically be served through our advertising partners, to whom may have detailed privacy policies relating directly to the adverts they serve.
 
-These cookies are used to collect information about how visitors use our site. We use the information to compile reports and to help us improve the site. The cookies collect information in an anonymous form, including the number of visitors to the site, where visitors have come to the site from and the pages they visited.
+Clicking on any such adverts will send you to the advertisers website through a referral program which may use cookies and will track the number of referrals sent from this website. This may include the use of cookies which may in turn be saved on your computers hard drive. Users should therefore note they click on sponsored external links at their own risk and this website and its owners cannot be held liable for any damages or implications caused by visiting any external links mentioned.
 
-Visit Google for more information
+### Social Media Platforms
 
-#### Javascript settings
+Communication, engagement and actions taken through external social media platforms that this website and its owners participate on are custom to the terms and conditions as well as the privacy policies held with each social media platform respectively.
 
-    has_js
+Users are advised to use social media platforms wisely and communicate / engage upon them with due care and caution in regard to their own privacy and personal details. This website nor its owners will ever ask for personal or sensitive information through social media platforms and encourage users wishing to discuss sensitive details to contact them through primary communication channels such as by telephone or email.
 
-Lets the website know whether javascript is enabled on this device.
+This website may use social sharing buttons which help share web content directly from web pages to the social media platform in question. Users are advised before using such social sharing buttons that they do so at their own discretion and note that the social media platform may track and save your request to share a web page respectively through your social media platform account.
 
-#### Session Cookie
-
-    e.g. SESS41abf1b6767311d0da8c09f9779b365d
-
-A unique ID that allows the site to pass information between pages.
-
-#### Display preferences
-
-Drupal.tableDrag.showWeight
-Stores display preferences for the site.
-
-#### Cookie Control
-
-voluntary-action-leicestershire_cookiecontrol
-Holds settings for the cookie warning popup.
-
-#### YouTube cookies
-
-We embed videos from our official YouTube channel using YouTube’s privacy-enhanced mode. This mode may set cookies on your computer once you click on the YouTube video player, but YouTube will not store personally-identifiable cookie information for playbacks of embedded videos using the privacy-enhanced mode. To find out more please visit YouTube’s embedding videos information page.
-
-### Links to other websites
-
-Our website may contain links to other websites of interest. However, once you have used these links to leave our site, you should note that we do not have any control over that other website. Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites and such sites are not governed by this privacy statement. You should exercise caution and look at the privacy statement applicable to the website in question.
-
-### Controlling your personal information
-
-You may choose to restrict the collection or use of your personal information in the following ways:
-
-Whenever you are asked to fill in a form on the website your data will be for the use of Voluntary Action LeicesterShire’s work unless explicitly stated otherwise
-If you have previously agreed to us using your personal information for direct contact you may cancel it at any time by contacting us at helpline@valonline.org.uk
-We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen.
-
-You may request details of personal information which we hold about you under the Data Protection Act 1998. A small fee will be payable. If you would like a copy of the information held on you please write to:
-
-Voluntary Action LeicesterShire
-9 Newarke Street
-Leicester
-LE1 5SN
-
-If you believe that any information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible, at the above address. We will promptly correct any information found to be incorrect.
-
+### Shortened Links in Social Media
+	
+This website and its owners through their social media platform accounts may share web links to relevant web pages. By default some social media platforms shorten lengthy urls [web addresses] (this is an example: http://bit.ly/zyVUBo). 
+Users are advised to take caution and good judgement before clicking any shortened urls published on social media platforms by this website and its owners. Despite the best efforts to ensure only genuine urls are published many social media platforms are prone to spam and hacking and therefore this website and its owners cannot be held liable for any damages or implications caused by visiting any shortened links.
