@@ -21,6 +21,10 @@ github: aylestoneallotments/www.aylestoneallotments.co.uk
 logo_path: /img/logo.svg
 copyright: "Copyright 2011 Aylestone Allotments and Leisure Gardeners Society."
 
+# Opengraph settings
+
+socialimg: "/img/social/og-image.png"
+
 #  Social media settings
 
 facebook: "Aylestone-Allotments-and-Leisure-Gardeners-Society-AALGS-203607403321766/"
