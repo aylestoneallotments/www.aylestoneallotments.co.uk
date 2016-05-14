@@ -23,7 +23,8 @@ copyright: "Copyright 2011 Aylestone Allotments and Leisure Gardeners Society."
 
 # Opengraph settings
 
-socialimg: "/img/social/og-image.png"
+twitterimg: "/img/social/twitter-image.png"
+ogimg: "/img/social/og-image.png"
 
 #  Social media settings
 
