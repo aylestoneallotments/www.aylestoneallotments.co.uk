@@ -3,7 +3,7 @@ layout: default
 title: 18/01/16 – Scribbles from the Secretary
 published: true
 summary: New seeds on sale and an update from our AGM.
-date: "2016-05-11 08:39 +0100"
+date: "2016-02-02 08:39 +0100"
 ---
 
 Dear Fellow Allotmenteers,
