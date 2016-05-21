@@ -24,12 +24,12 @@ This isn’t a new phenomenon or a fancy theory; examples can be found throughou
 
 Simple companion plants you can introduce to your plot immediately include:
 
-Nasturtiums: though vigorous, these are an excellent ‘sacrificial’ crop to attract aphids away from your beans. They are edible, grow attractive flowers, and the seeds are wonderful when pickled!
+1. Nasturtiums: though vigorous, these are an excellent ‘sacrificial’ crop to attract aphids away from your beans. They are edible, grow attractive flowers, and the seeds are wonderful when pickled!
 
-Sunflowers: These provide both shade and support when intercropped with cucumbers. They also make lovely cut flowers, and the seed heads double up as nature’s answer to the bird feeder (if you can refrain from nibbling them yourself)!
+2. Sunflowers: These provide both shade and support when intercropped with cucumbers. They also make lovely cut flowers, and the seed heads double up as nature’s answer to the bird feeder (if you can refrain from nibbling them yourself)!
 
-Lettuce: try interplanting between your brassicas – plants are happier together, and the extra ground cover will prevent weeds and increase yield. You may wish to leave some lettuces as a sacrificial crop to lure slugs away from your maincrop, too.
+3. Lettuce: try interplanting between your brassicas – plants are happier together, and the extra ground cover will prevent weeds and increase yield. You may wish to leave some lettuces as a sacrificial crop to lure slugs away from your maincrop, too.
 
-Marigold (tagetes): These are excellent alongside your tomatoes or potatoes. They have a pungent scent that deters many common pests, including nematodes and eelworm.
+4. Marigold (tagetes): These are excellent alongside your tomatoes or potatoes. They have a pungent scent that deters many common pests, including nematodes and eelworm.
 
-Calendula: Confusingly known as ‘pot marigold’, this is a different species to the tagetes. Sow a mix of calendula and cornflowers in your borders to attract a host of beneficial pollinators, as well as beneficial predators such as hoverflies, lacewings and ladybirds.
+5. Calendula: Confusingly known as ‘pot marigold’, this is a different species to the tagetes. Sow a mix of calendula and cornflowers in your borders to attract a host of beneficial pollinators, as well as beneficial predators such as hoverflies, lacewings and ladybirds.
