@@ -8,6 +8,11 @@
 #
 # Add new newsletters to the top of the list
 
+- name: "AALGS News Summer 2016"
+  img: "/img/newsletters/aalgs-news-summer-2016-thumbnail.jpg"
+  url: "https://drive.google.com/file/d/0B6XKQax98VJTdU1VRkg4R1J2ZDQ/view?usp=sharing"
+  description: "In this issue: Water saving tips"
+
 - name: "AALGS News Spring 2016"
   img: "/img/newsletters/aalgs-news-spring-2016-thumbnail.jpg"
   url: "https://drive.google.com/file/d/0B_X_memtuR37YlZTdUJlNlFOZEU/view?usp=sharing"
