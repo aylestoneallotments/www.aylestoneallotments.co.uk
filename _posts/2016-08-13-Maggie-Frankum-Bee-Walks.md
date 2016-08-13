@@ -1,7 +1,7 @@
 ---
 layout: default
 date: '2016-08-13 19:01 +0100'
-published: false
+published: true
 ---
 ## Maggie Frankum's Bee Walks
 
