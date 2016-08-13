@@ -1,7 +1,7 @@
 ---
 layout: default
 date: '2016-08-13 19:05 +0100'
-published: false
+published: true
 ---
 ## Annual Show - Saturday 20th August 2016
 
@@ -12,4 +12,3 @@ Take a look at [our schedule](https://drive.google.com/file/d/0B6XKQax98VJTaHljQ
 We are looking for a volunteer steward to help facilitate the show, so please get in touch if you can help!
 
 ![ANNUALSHOWAALGSPOSTER.jpg]({{site.baseurl}}/img/ANNUALSHOWAALGSPOSTER.jpg)
-
