@@ -50,8 +50,6 @@ background-size: auto auto;
 		width: 390px;
 		min-height: 300px;
 		.hero-copy {
-			@include animation-delay(2s);
-			@include animation(scale 1.0s ease-in, slide 2.0s ease);
 			text-align: left;
       
 			h1 {
