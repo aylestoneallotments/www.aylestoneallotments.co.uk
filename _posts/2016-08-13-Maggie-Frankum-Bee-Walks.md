@@ -3,7 +3,6 @@ layout: default
 date: '2016-08-13 19:01 +0100'
 published: true
 ---
-## Maggie Frankum's Bee Walks
 
 ![bee-1040522_960_720.jpg]({{site.baseurl}}/img/bee-1040522_960_720.jpg)
 

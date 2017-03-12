@@ -41,6 +41,40 @@ $(document).ready(function() {
 	
 });
 
+$('#calendar').fullCalendar({
+    googleCalendarApiKey: 'AIzaSyDaSLFvT77RaqF9qexaLVcY5RcxzML2ky8',
+    events: {
+        googleCalendarId: '32tks88q2dfk2s6ounvvsq36t8@group.calendar.google.com'
+    },
+	timeFormat: 'h(:mm)a',
+    eventRender: function(event, element) {
+		element.attr("href", event.description)
+    }
+});
+
+$('#calendarmini').fullCalendar({
+	header: false,
+	footer: false,
+	views: {
+        listAll: {
+              type: 'list',
+              duration: { days: 365 },
+              buttonText: '365 day'
+          }
+	},
+	defaultView: 'listAll',
+	height: 280,
+    googleCalendarApiKey: 'AIzaSyDaSLFvT77RaqF9qexaLVcY5RcxzML2ky8',
+    events: {
+        googleCalendarId: '32tks88q2dfk2s6ounvvsq36t8@group.calendar.google.com'
+    },
+	timeFormat: 'h(:mm)a',
+	displayEventEnd: false,
+    eventRender: function(event, element) {
+		element.find('a').attr("href", event.description);
+    }
+});
+
 (function (jQuery) {
   jQuery.mark = {
     jump: function (options) {

@@ -3,6 +3,7 @@ title: The Seed Hut Shop
 layout: default
 summary: "Members can buy a wide variety of seeds, manure and garden materials from our shop in the seed hut."
 published: true
+permalink: /shop/
 ---
 
 ![Aylestone Allotments Site](/img/seed-hut.jpg "The seed hut")
