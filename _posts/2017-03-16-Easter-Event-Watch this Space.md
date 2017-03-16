@@ -2,6 +2,7 @@
 layout: default
 date: '2017-03-16 21:24 +0000'
 published: true
+title: 'Easter Event: Watch this Space'
 ---
 **15 April Easter**
 
