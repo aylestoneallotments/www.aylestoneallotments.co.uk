@@ -2,12 +2,14 @@
 layout: default
 date: '2017-03-16 21:24 +0000'
 published: true
-title: 'Easter Event: Watch this Space'
+title: Easter Fun
 ---
-**15 April Easter**
+**Saturday 15th April in the Hut 10.30am-1pm**
 
-There are good things in the pipeline, for young and not so young.
+There will be An Easter Egg Hunt.
 
-So far we have an easter egg hunt, easter bonnets, and creative activaties for the youngsters. Easter bonnets and hot crossed buns for us grown up… OK, the little ones can have a hot crossed bun… but only if they promise to be good.
+An Easter Bonnet Parade for kids and adults.
 
-Keep watching.
+Kids… come and make things in the Hut…
+
+Free Hot Cros Buns,Tea, Coffee, soft dinks and great raffle prizes
