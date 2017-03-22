@@ -50,6 +50,10 @@ prose:
   media: img
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
       - name: "date"
         field:
           label: "Date"
@@ -64,3 +68,8 @@ prose:
         field:
           element: "hidden"
           value: "default"
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
