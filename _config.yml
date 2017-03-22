@@ -59,11 +59,6 @@ prose:
           label: "Date"
           element: "text"
           value: CURRENT_DATETIME
-      - name: "published"
-        field:
-          label: "Published"
-          element: "checkbox"
-          value: false
       - name: "layout"
         field:
           element: "hidden"
