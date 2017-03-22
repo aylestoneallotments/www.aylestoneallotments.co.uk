@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Committee Meetings
-date: '2015-03-12 19:01 +0100'
+title: AALGS Committee Meeting
+date: '2017-03-22 19:01 +0100'
 published: true
 permalink: /committee-meetings/
 ---
