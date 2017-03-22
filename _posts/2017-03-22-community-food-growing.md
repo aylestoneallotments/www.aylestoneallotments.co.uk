@@ -1,6 +1,6 @@
 ---
 layout: default
-date: '2017-03-22 21:34 +0000'
+date: '2017-03-14 21:34 +0000'
 published: true
 title: Community food growing - networking and drop in event Tuesday 21 March 2pm-4pm
 ---
