@@ -4,7 +4,7 @@ date: '2017-04-04 21:59 +0100'
 published: true
 title: Available While Stock Lasts
 ---
-Potatoes, onions and garlic are currently available from our [Seed Hut](/shop/). Make sure you to pick yours up to avoid disappointment.
+Potatoes, onions and garlic are currently available from our [Seed Hut](/shop/). Stocks are limited so make sure you pick up yours soon!
 
 ### Potatoes
 
