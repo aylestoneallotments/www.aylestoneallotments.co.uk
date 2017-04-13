@@ -19,7 +19,7 @@ Free Hot Cros Buns,Tea, Coffee, soft dinks and great raffle prizes
 ### Timings
 
 **10.30**    Welcome
-Malc (Master of Ceromonies) Refreshments
+Malc (Master of Ceremonies) Refreshments
 Crafts ... Abi
  
 **11.30**   Easter Bonnets
