@@ -16,4 +16,4 @@ Why not join us again and enjoy a Saturday morning potter around the allotments,
 
 Find out more about them: - how to catch and identify them; their life cycles; what flowers to grow to entice them with nectar and pollen etc; and unwittingly in return, they will carry out the important role of pollination of the flowers, fruit and veggies that we grow and rely on.
 
-Bumbles still need our continued understanding and support.
+**Bumbles still need our continued understanding and support.**
