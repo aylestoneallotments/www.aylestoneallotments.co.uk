@@ -52,6 +52,10 @@ $('#calendar').fullCalendar({
     }
 });
 
+$("#Glide").glide({
+    type: "carousel"
+});
+
 $('#calendarmini').fullCalendar({
 	header: false,
 	footer: false,

@@ -103,15 +103,13 @@ picture {
 }
 
 blockquote {
-	padding-top: 1em;
-	padding-bottom: 1em;
 	float: left;
 	width: 100%;
 	display: block;
 	color: $brand-primary;
 	line-height: 1.5em;
-	font-size: modular-scale(1);
 	padding-left: 30px;
+	margin-left: 0;
 	&:before {
 		font-size: 1em;
 		float: left;

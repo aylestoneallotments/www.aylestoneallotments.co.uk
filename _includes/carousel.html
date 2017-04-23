@@ -1,0 +1,14 @@
+{% assign slides = include.slides | split:"|" %}
+{% assign caption = include.captions | split:"|" %}
+<div id="Glide" class="glide">
+    <div class="glide__arrows">
+        <button class="glide__arrow prev" data-glide-dir="<">prev</button>
+        <button class="glide__arrow next" data-glide-dir=">">next</button>
+    </div>
+    <div class="glide__wrapper">
+        <ul class="glide__track">
+            {% for slide in slides %}<li class="glide__slide"><img src='{{ slide }}' alt="{{ caption[forloop.index0] }}"></li>{% endfor %}
+        </ul>
+    </div>
+    <div class="glide__bullets"></div>
+</div>
